@@ -1,0 +1,23 @@
+<Data>
+<rm NAME="GLOBAL" TYPE="SSS,WIKI,NATIVE"></rm>
+<rm AUTHTYPE="CHECKSUM" EPORT="15017" FLAGS="executionServer"
+    HOST="ram" JOBCOUNT="108" JOBCOUNTER="1" JOBSTARTCOUNT="904"
+    NAME="ram" NC="131" PARTITION="tukwila" PORT="7321" PROCS="852"
+    RESOURCETYPE="COMPUTE" STATE="Active" STATS="1.72,52.88,27832"
+    TIMEOUT="00:00:30" TYPE="WIKI:SLURM" UPDATETIME="1346271376"
+    VERSION="20305">
+</rm>
+<am CHARGEPOLICY="DEBITSUCCESSFULWC" FLUSHINTERVAL="3600"
+    HOST="/opt/moab/spool/am.log" NAME="local" PORT="0"
+    STATE="Active" TYPE="FILE">
+    <psi avgResponseTime="0.000000" failCount="0"
+        maxResponseTime="0.000000" totalRequests="0">
+    </psi>
+</am>
+<am HOST="" NAME="files" PORT="0" STATE="Active" TYPE="GOLD" VERSION="0">
+    <psi avgResponseTime="0.003492" failCount="0"
+        maxResponseTime="0.019000" totalRequests="6928">
+    </psi>
+</am>
+</Data>
+
