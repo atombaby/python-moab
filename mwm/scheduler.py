@@ -3,7 +3,7 @@
 
 import sys
 import subprocess
-import elementtree.ElementTree as et
+import xml.etree.ElementTree as et
 
 # constants
 # exception classes
