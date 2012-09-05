@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Functions for interacting with the MWM scheduler"""
 
 import sys
@@ -6,6 +7,9 @@ import elementtree.ElementTree as et
 
 # constants
 # exception classes
+class MWMConnectError(Exception):
+    def __init__( self, message ):
+        print "ERROR: " + message
 # interface functions
 # classes
 
@@ -16,6 +20,7 @@ class Scheduler():
                  loglevel=False,
                  port=False,
                  timeout=False):"""
+
 
     def __init__(self):
 
@@ -47,6 +52,21 @@ class Scheduler():
         except NameError:
             pass
 
+        # Make trial connection to scheduler
+        command = [ 'mdiag' ]
+        options = [ '-S' ]
+        r = self.doCommand( command + self.base_options + options )
+        xml_data = et.fromstring( r )
+        state = xml_data.find( 'sched' ).attrib[ 'STATE' ]
+
+        if state != 'RUNNING':
+            print ( 'WARNING: scheduler is '
+                   'not \'running\' ( {} )'.format( state ) )
+
+        self.state = state
+        self.version = xml_data.find(
+            'sched/Version' ).attrib[ 'moabversion' ]
+
     def getSchedData( self ):
         command = [ 'mschedctl' ]
         options = [ '' ]
@@ -76,16 +96,38 @@ class Scheduler():
         return dict( v )
 
     def doCommand( self, command ):
-        return subprocess.check_output( command )
-
+        try:
+            t = subprocess.check_output(
+                command,
+                stderr=subprocess.STDOUT
+            )
+        except OSError:
+            raise MWMConnectError( "Moab binaries not found" )
+        except subprocess.CalledProcessError, e:
+            errdata = et.fromstring( e.output )
+            try:
+                msg = errdata.find( 'Message' ).text
+                raise MWMConnectError( "Connection failure: " + msg )
+            except:
+                msg = errdata.text
+                raise MWMConnectError( "Connection failure: " + msg )
+        except:
+            raise MWMConnectError(
+                "unknown error intiating connection to MWM"
+            )
+        return t
 
 # internal functions & classes
 
 def main():
         # bar = Scheduler(hostname='bar', port=5309, timeout=12, loglevel=1)
-        bar = Scheduler( )
-        print bar.getRMData()['STATE']
-        print bar.getSchedData()['iteration']
+        print "Connecting to default scheduler"
+        s = Scheduler( )
+        print "found scheduler version {} ". format( s.version )
+
+        print "... getting RM state..."
+        retval = s.getRMData()['STATE']
+        print retval
 
 if __name__ == '__main__':
         status = main()
