@@ -105,12 +105,8 @@ class Scheduler():
             raise MWMConnectError( "Moab binaries not found" )
         except subprocess.CalledProcessError, e:
             errdata = et.fromstring( e.output )
-            try:
-                msg = errdata.find( 'Message' ).text
-                raise MWMConnectError( "Connection failure: " + msg )
-            except:
-                msg = errdata.text
-                raise MWMConnectError( "Connection failure: " + msg )
+            msg = errdata.find( 'Message' ).text
+            raise MWMConnectError( "Connection failure: " + msg )
         except:
             raise MWMConnectError(
                 "unknown error intiating connection to MWM"
