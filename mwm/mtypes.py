@@ -1,75 +1,107 @@
+def _process( self, data={}, attrs=[] ):
+    for d, t in attrs:
+        if t == 'int':
+            vars(self)[d] = 0
+            try:
+                vars(self)[d] = int( data[d] )
+            except KeyError:
+                vars(self)[d] = 0
+            except ValueError:
+                print "invalid data \"{}\" for \"{}\"".format(
+                    t, data[d] )
+
+        elif t == 'float':
+            vars(self)[d] = 0.0
+            try:
+                vars(self)[d] = float( data[d] )
+            except KeyError:
+                vars(self)[d] = 0.0
+            except ValueError:
+                print "invalid data \"{}\" for \"{}\"".format(
+                    d, data[d] )
+
+        elif t == 'string':
+            vars(self)[d] = ""
+            try:
+                vars(self)[d] = data[d]
+            except KeyError:
+                vars(self)[t] = ""
+
 class Job: 
-    """
-                <job
-                    AWDuration="446330"
-                    Account="matsen_e"
-                    Class="any"
-                    DRMJID="107020"
-                    EEDuration="2"
-                    Group="g_crosenth"
-                    JobID="107020"
-                    JobName="ssearch36"
-                    MasterHost="gizmod10"
-                    PAL="campus"
-                    ReqAWDuration="259200"
-                    ReqProcs="1"
-                    RsvStartTime="1346434718"
-                    RunPriority="14402"
-                    StartPriority="14402"
-                    StartTime="1346434718"
-                    StatPSDed="446307.460000"
-                    StatPSUtl="0.000000"
-                    State="Running"
-                    SubmissionTime="1346434716"
-                    SuspendDuration="0"
-                    User="crosenth">
-                    <par ID="campus" RsvStartTime="1346434718" StartPriority="14402">
-                    </par>
-                    <par ID="tukwila" StartPriority="14402">
-                    </par>
-                </job>
-    """
-    def __init__(self, jobdata={}):
+    def __init__(self, rawdata={}):
         # Create with any attributes passed in
         # and then correctly type and re-set, setting
         # defaults along the way.
 
-        integer_values = [ 'AWDuration', 'DRMJID', 'EEDuration', 'JobID',
-            'ReqAWDuration', 'ReqProcs', 'RsvStartTime', 'RunPriority',
-            'StartPriority', 'StartTime', 'SubmissionTime',
-            'SuspendDuration', ]
-        float_values = [ 'StatPSDed', 'StatPSUtl', ]
-        string_values = [ 'Account', 'Class', 'Group', 'JobName',
-            'State', 'User', 'MasterHost', 'PAL', ]
+        attributes = [
+            ( 'AWDuration', 'int' ),
+            ( 'DRMJID', 'int' ),
+            ( 'EEDuration', 'int' ),
+            ( 'JobID', 'int' ),
+            ( 'NCReqMin', 'int' ),
+            ( 'ReqAWDuration', 'int' ),
+            ( 'ReqProcs', 'int' ),
+            ( 'RsvStartTime', 'int' ),
+            ( 'RunPriority', 'int' ),
+            ( 'StartCount', 'int' ),
+            ( 'StartPriority', 'int' ),
+            ( 'StartTime', 'int' ),
+            ( 'SubmissionTime', 'int' ),
+            ( 'SuspendDuration', 'int' ),
+            ( 'UMask', 'int' ),
+            ( 'StatPSDed', 'float' ),
+            ( 'StatPSUtl', 'float' ),
+            ( 'StatMSUtl', 'float' ),
+            ( 'Account', 'string' ),
+            ( 'AllocNodeList', 'string' ),
+            ( 'AllocPartition', 'string' ),
+            ( 'BlockReason', 'string' ),
+            ( 'Class', 'string' ),
+            ( 'EffPAL', 'string' ),
+            ( 'EState', 'string' ),
+            ( 'Flags', 'string' ),
+            ( 'Group', 'string' ),
+            ( 'ID', 'string' ),
+            ( 'IWD', 'string' ),
+            ( 'JobName', 'string' ),
+            ( 'MasterHost', 'string' ),
+            ( 'NodeAccess', 'string' ),
+            ( 'PAL', 'string' ),
+            ( 'QueueStatus', 'string' ),
+            ( 'ReqNodeMem', 'string' ),
+            ( 'ReqNodeProc', 'string' ),
+            ( 'ReqNodeSwap', 'string' ),
+            ( 'ReqPartition', 'string' ),
+            ( 'ReqProcPerTask', 'string' ),
+            ( 'RM', 'string' ),
+            ( 'State', 'string' ),
+            ( 'TCReqMin', 'string' ),
+            ( 'User', 'string' ),
+        ]
 
-        for v in integer_values:
-            if jobdata.has_key( v ):
-                vars(self)[v] = int( jobdata[v] )
-            else:
-                vars(self)[v] = 0
+        _process( self, data=rawdata, attrs=attributes )
 
-        for v in float_values:
-            if jobdata.has_key( v ):
-                vars(self)[v] = float( jobdata[v] )
-            else:
-                vars(self)[v] = 0.0
 
-        for v in string_values:
-            if jobdata.has_key( v ):
-                vars(self)[v] = int( jobdata[v] )
-            else:
-                vars(self)[v] = ""
-class queue:
+class Queue:
     pass
 
-class user:
+
+class User:
+    def __init__(self, rawdata={}):
+        attributes=[
+            ( 'ADEF', 'string' ),
+            ( 'ALIST', 'string' ),
+            ( 'ENABLEPROFILING', 'string' ),
+            ( 'ID', 'string' ),
+            ( 'ROLE', 'string' ),
+        ]
+        _process( self, rawdata, attributes)
+
+class ResourceManager:
     pass
 
-class rm:
+class Account:
     pass
 
-class account:
-    pass
-
-class node:
+class Node:
     pass

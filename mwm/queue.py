@@ -6,6 +6,10 @@ import scheduler
 import sys
 import xml.etree.ElementTree as et
 
+def getRunningJobs( s ):
+    # return running jobs as array of hashes
+    pass
+
 def getRunningSummary( s ):
     # return summary statistics on running jobs
     summary = {}
