@@ -1,708 +1,744 @@
-
 <Data>
-<Object>queue</Object>
-<cluster LocalActiveNodes="88" LocalAllocProcs="906" LocalConfigNodes="131" LocalIdleNodes="29" LocalIdleProcs="570" LocalUpNodes="117" LocalUpProcs="1456" RemoteActiveNodes="0" RemoteAllocProcs="0" RemoteConfigNodes="0" RemoteIdleNodes="0" RemoteIdleProcs="0" RemoteUpNodes="0" RemoteUpProcs="0" time="1346881057">
-</cluster>
-<queue count="149" option="active">
-<job AWDuration="446330" Account="matsen_e" Class="any" DRMJID="107020" EEDuration="2" Group="g_crosenth" JobID="107020" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346434718" RunPriority="14402" StartPriority="14402" StartTime="1346434718" StatPSDed="446307.460000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346434716" SuspendDuration="0" User="crosenth">
-<par ID="campus" RsvStartTime="1346434718" StartPriority="14402">
-</par>
-<par ID="tukwila" StartPriority="14402">
-</par>
-</job>
-<job AWDuration="445340" Account="matsen_e" Class="any" DRMJID="107029" EEDuration="8" Group="g_crosenth" JobID="107029" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346435708" RunPriority="14402" StartPriority="14402" StartTime="1346435708" StatPSDed="445317.670000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346435700" SuspendDuration="0" User="crosenth">
-<par ID="campus" RsvStartTime="1346435708" StartPriority="14402">
-</par>
-<par ID="tukwila" StartPriority="14402">
-</par>
-</job>
-<job AWDuration="443646" Account="matsen_e" Class="any" DRMJID="107037" EEDuration="4" Group="g_crosenth" JobID="107037" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346437402" RunPriority="14402" StartPriority="14402" StartTime="1346437402" StatPSDed="443623.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346437398" SuspendDuration="0" User="crosenth">
-<par ID="campus" RsvStartTime="1346437402" StartPriority="14402">
-</par>
-<par ID="tukwila" StartPriority="14402">
-</par>
-</job>
-<job AWDuration="439266" Account="matsen_e" Class="any" DRMJID="107680" EEDuration="5" Group="g_crosenth" JobID="107680" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346441782" RunPriority="14402" StartPriority="14402" StartTime="1346441782" StatPSDed="439243.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346441777" SuspendDuration="0" User="crosenth">
-<par ID="campus" RsvStartTime="1346441782" StartPriority="14402">
-</par>
-<par ID="tukwila" StartPriority="14402">
-</par>
-</job>
-<job AWDuration="439189" Account="matsen_e" Class="any" DRMJID="107681" EEDuration="7" Group="g_crosenth" JobID="107681" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346441859" RunPriority="14402" StartPriority="14402" StartTime="1346441859" StatPSDed="439166.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346441852" SuspendDuration="0" User="crosenth">
-<par ID="campus" RsvStartTime="1346441859" StartPriority="14402">
-</par>
-<par ID="tukwila" StartPriority="14402">
-</par>
-</job>
-<job AWDuration="367402" Account="wang_p" Class="tukwila" DRMJID="108145" EEDuration="6" Group="g_pdanaher" JobID="108145" JobName="grabquarternode" MasterHost="gizmod89" PAL="tukwila" ReqAWDuration="259200" ReqNodes="1" ReqProcs="3" RsvStartTime="1346513646" RunPriority="14335" StartPriority="14335" StartTime="1346513646" StatPSDed="1102133.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346513640" SuspendDuration="0" User="pdanaher">
-<par ID="tukwila" RsvStartTime="1346513646" StartPriority="14335">
-</par>
-</job>
-<job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108558" EEDuration="1" Group="g_pbradley" JobID="108558" JobName="job17b2" MasterHost="gizmod101" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767410" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108556" EEDuration="5" Group="g_pbradley" JobID="108556" JobName="job17b2" MasterHost="gizmod73" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767406" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108555" EEDuration="7" Group="g_pbradley" JobID="108555" JobName="job17b2" MasterHost="gizmod83" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767404" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108557" EEDuration="3" Group="g_pbradley" JobID="108557" JobName="job17b2" MasterHost="gizmod71" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767408" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113626" Account="bradley_p" Class="any" DRMJID="108560" EEDuration="8" Group="g_pbradley" JobID="108560" JobName="job17b2" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767422" RunPriority="1" StartPriority="1" StartTime="1346767422" StatPSDed="1363250.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767414" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767422" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113626" Account="bradley_p" Class="any" DRMJID="108561" EEDuration="6" Group="g_pbradley" JobID="108561" JobName="job17b2" MasterHost="gizmod94" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767422" RunPriority="1" StartPriority="1" StartTime="1346767422" StatPSDed="1363250.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767416" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767422" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113626" Account="bradley_p" Class="any" DRMJID="108559" EEDuration="10" Group="g_pbradley" JobID="108559" JobName="job17b2" MasterHost="gizmod97" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767422" RunPriority="1" StartPriority="1" StartTime="1346767422" StatPSDed="1363250.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767412" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767422" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113692" Account="bradley_p" Class="any" DRMJID="108531" EEDuration="2" Group="g_pbradley" JobID="108531" JobName="job17b2" MasterHost="gizmod52" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767356" RunPriority="1" StartPriority="1" StartTime="1346767356" StatPSDed="1364041.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767354" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767356" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113692" Account="bradley_p" Class="any" DRMJID="108529" EEDuration="6" Group="g_pbradley" JobID="108529" JobName="job17b2" MasterHost="gizmod59" PAL="campus" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767356" RunPriority="1" StartPriority="1" StartTime="1346767356" StatPSDed="1364041.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767350" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767356" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113692" Account="bradley_p" Class="any" DRMJID="108530" EEDuration="4" Group="g_pbradley" JobID="108530" JobName="job17b2" MasterHost="gizmod53" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767356" RunPriority="1" StartPriority="1" StartTime="1346767356" StatPSDed="1364041.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767352" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767356" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108536" EEDuration="3" Group="g_pbradley" JobID="108536" JobName="job17b2" MasterHost="gizmod36" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767364" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767367" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108535" EEDuration="5" Group="g_pbradley" JobID="108535" JobName="job17b2" MasterHost="gizmod37" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767362" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767367" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108532" EEDuration="11" Group="g_pbradley" JobID="108532" JobName="job17b2" MasterHost="gizmod51" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767356" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767367" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108534" EEDuration="7" Group="g_pbradley" JobID="108534" JobName="job17b2" MasterHost="gizmod11" PAL="campus" ReqAWDuration="129600" ReqNodes="3" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767360" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767367" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108537" EEDuration="1" Group="g_pbradley" JobID="108537" JobName="job17b2" MasterHost="gizmod35" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767366" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767367" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108533" EEDuration="9" Group="g_pbradley" JobID="108533" JobName="job17b2" MasterHost="gizmod21" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767358" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767367" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108541" EEDuration="4" Group="g_pbradley" JobID="108541" JobName="job17b2" MasterHost="gizmod29" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767374" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767378" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108542" EEDuration="1" Group="g_pbradley" JobID="108542" JobName="job17b2" MasterHost="gizmod25" PAL="campus" ReqAWDuration="129600" ReqNodes="3" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767377" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767378" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108538" EEDuration="10" Group="g_pbradley" JobID="108538" JobName="job17b2" MasterHost="gizmod33" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767368" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767378" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108539" EEDuration="8" Group="g_pbradley" JobID="108539" JobName="job17b2" MasterHost="gizmod31" PAL="campus" ReqAWDuration="129600" ReqNodes="3" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767370" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767378" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108540" EEDuration="6" Group="g_pbradley" JobID="108540" JobName="job17b2" MasterHost="gizmod30" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767372" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767378" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108543" EEDuration="10" Group="g_pbradley" JobID="108543" JobName="job17b2" MasterHost="gizmod24" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767379" SuspendDuration="0" User="pbradley">
-<par ID="campus" RsvStartTime="1346767389" StartPriority="1">
-</par>
-<par ID="tukwila" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108547" EEDuration="2" Group="g_pbradley" JobID="108547" JobName="job17b2" MasterHost="gizmod115" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767387" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108546" EEDuration="4" Group="g_pbradley" JobID="108546" JobName="job17b2" MasterHost="gizmod104" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767385" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108545" EEDuration="6" Group="g_pbradley" JobID="108545" JobName="job17b2" MasterHost="gizmod105" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767383" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108544" EEDuration="8" Group="g_pbradley" JobID="108544" JobName="job17b2" MasterHost="gizmod107" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767381" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108551" EEDuration="5" Group="g_pbradley" JobID="108551" JobName="job17b2" MasterHost="gizmod111" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767395" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108553" EEDuration="1" Group="g_pbradley" JobID="108553" JobName="job17b2" MasterHost="gizmod109" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767399" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108549" EEDuration="9" Group="g_pbradley" JobID="108549" JobName="job17b2" MasterHost="gizmod113" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767391" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108552" EEDuration="3" Group="g_pbradley" JobID="108552" JobName="job17b2" MasterHost="gizmod110" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767397" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108548" EEDuration="11" Group="g_pbradley" JobID="108548" JobName="job17b2" MasterHost="gizmod114" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767389" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
-</par>
-</job>
-<job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108554" EEDuration="9" Group="g_pbradley" JobID="108554" JobName="job17b2" MasterHost="gizmod108" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767402" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
-</par>
-</job>
-<job AWDuration="24033" Account="sr_genomics" Class="campus" DRMJID="108813" EEDuration="2" Group="g_solexa" JobID="108813" JobName="2012.09.05_apfong_bwa.sh_lane7_2.qsub" MasterHost="gizmod15" PAL="campus" ReqAWDuration="86400" ReqNodes="1" ReqProcs="4" RsvStartTime="1346857015" RunPriority="13308" StartPriority="13308" StartTime="1346857015" StatPSDed="96113.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346857013" SuspendDuration="0" User="solexa">
-<par ID="campus" RsvStartTime="1346857015" StartPriority="13308">
-</par>
-</job>
-<job AWDuration="24033" Account="sr_genomics" Class="campus" DRMJID="108812" EEDuration="6" Group="g_solexa" JobID="108812" JobName="2012.09.05_apfong_bwa.sh_lane7.qsub" MasterHost="gizmod15" PAL="campus" ReqAWDuration="86400" ReqNodes="1" ReqProcs="4" RsvStartTime="1346857015" RunPriority="13308" StartPriority="13308" StartTime="1346857015" StatPSDed="96113.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346857009" SuspendDuration="0" User="solexa">
-<par ID="campus" RsvStartTime="1346857015" StartPriority="13308">
-</par>
-</job>
-<job AWDuration="24022" Account="sr_genomics" Class="campus" DRMJID="108814" EEDuration="11" Group="g_solexa" JobID="108814" JobName="2012.09.05_apfong_bwa.sh_lane7_3.qsub" MasterHost="gizmod15" PAL="campus" ReqAWDuration="86400" ReqNodes="1" ReqProcs="4" RsvStartTime="1346857026" RunPriority="13308" StartPriority="13308" StartTime="1346857026" StatPSDed="96069.840000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346857015" SuspendDuration="0" User="solexa">
-<par ID="campus" RsvStartTime="1346857026" StartPriority="13308">
-</par>
-</job>
-<job AWDuration="517" Account="noaccount" Class="tukwila" DRMJID="109008" EEDuration="4" Group="g_hbolouri" JobID="109008" JobName="grabcpu" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="86400" ReqNodes="1" ReqProcs="1" RsvStartTime="1346880531" RunPriority="11614" StartPriority="11614" StartTime="1346880531" StatPSDed="517.030000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346880527" SuspendDuration="0" User="hbolouri">
-<par ID="tukwila" RsvStartTime="1346880531" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="79161" Account="kooperberg_c" Class="any" DRMJID="108712" EEDuration="5" Group="g_ylin2" JobID="108712" JobName="sbatch" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="172800" ReqProcs="60" RsvStartTime="1346801887" RunPriority="1" StartPriority="1" StartTime="1346801887" StatPSDed="4748802.000000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346801882" SuspendDuration="0" User="ylin2">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346801887" StartPriority="1">
-</par>
-</job>
-<job AWDuration="6061" Account="bradley_p" Class="any" DRMJID="108562" EEDuration="4" Group="g_pbradley" JobID="108562" JobName="job17b2" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346874987" RunPriority="1" StartPriority="1" StartTime="1346874987" StatPSDed="72724.080000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767418" SuspendDuration="0" User="pbradley">
-<par ID="campus" StartPriority="1">
-</par>
-<par ID="tukwila" RsvStartTime="1346874987" StartPriority="1">
-</par>
-</job>
-<job AWDuration="25321" Account="scicomp" Class="tukwila" DRMJID="108809" EEDuration="7" Group="g_mrg" JobID="108809" JobName="grabcpu" MasterHost="gizmod80" PAL="tukwila" ReqAWDuration="172800" ReqNodes="1" ReqProcs="1" RsvStartTime="1346855727" RunPriority="14889" StartPriority="14889" StartTime="1346855727" StatPSDed="25316.100000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346855720" SuspendDuration="0" User="mrg">
-<par ID="tukwila" RsvStartTime="1346855727" StartPriority="14889">
-</par>
-</job>
-<job AWDuration="11352" Account="noaccount" Class="tukwila" DRMJID="108889" EEDuration="6" Group="g_hbolouri" JobID="108889" JobName="grabcpu" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="172800" ReqNodes="1" ReqProcs="1" RsvStartTime="1346869696" RunPriority="11614" StartPriority="11614" StartTime="1346869696" StatPSDed="11350.430000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346869690" SuspendDuration="0" User="hbolouri">
-<par ID="tukwila" RsvStartTime="1346869696" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="75363" Account="peters_u" Class="any" DRMJID="108731" EEDuration="8" Group="g_cqu" JobID="108731" JobName="mpirun" MasterHost="gizmod11" PAL="campus" ReqAWDuration="259200" ReqProcs="100" RsvStartTime="1346805685" RunPriority="3739" StartPriority="3739" StartTime="1346805685" StatPSDed="7534959.000000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346805677" SuspendDuration="0" User="cqu">
-<par ID="campus" RsvStartTime="1346805685" StartPriority="3739">
-</par>
-<par ID="tukwila" StartPriority="3739">
-</par>
-</job>
-<job AWDuration="22404" Account="wang_p" Class="tukwila" DRMJID="108818" EEDuration="11" Group="g_pdanaher" JobID="108818" JobName="grabquarternode" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="259200" ReqNodes="1" ReqProcs="3" RsvStartTime="1346858644" RunPriority="14335" StartPriority="14335" StartTime="1346858644" StatPSDed="67199.700000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346858633" SuspendDuration="0" User="pdanaher">
-<par ID="tukwila" RsvStartTime="1346858644" StartPriority="14335">
-</par>
-</job>
-<job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108853" EEDuration="3" Group="g_ckang2" JobID="108853" JobName="kp_c12_11" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867284" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108854" EEDuration="2" Group="g_ckang2" JobID="108854" JobName="kp_c12_12" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867285" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108851" EEDuration="7" Group="g_ckang2" JobID="108851" JobName="kp_c12_9" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867280" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108852" EEDuration="5" Group="g_ckang2" JobID="108852" JobName="kp_c12_10" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867282" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="13750" Account="noaccount" Class="tukwila" DRMJID="108857" Group="g_ckang2" JobID="108857" JobName="kp_c12_7" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867298" RunPriority="11614" StartPriority="11614" StartTime="1346867298" StatPSDed="13747.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867298" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346867298" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="13750" Account="noaccount" Class="tukwila" DRMJID="108856" EEDuration="1" Group="g_ckang2" JobID="108856" JobName="kp_c12_6" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867298" RunPriority="11614" StartPriority="11614" StartTime="1346867298" StatPSDed="13747.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867297" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346867298" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="13750" Account="noaccount" Class="tukwila" DRMJID="108855" EEDuration="2" Group="g_ckang2" JobID="108855" JobName="kp_c12_5" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867298" RunPriority="11614" StartPriority="11614" StartTime="1346867298" StatPSDed="13747.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867296" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346867298" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12232" Account="noaccount" Class="tukwila" DRMJID="108863" EEDuration="6" Group="g_ckang2" JobID="108863" JobName="RLD2_3" MasterHost="gizmod76" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868816" RunPriority="11614" StartPriority="11614" StartTime="1346868816" StatPSDed="12230.240000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868810" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868816" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12232" Account="noaccount" Class="tukwila" DRMJID="108864" EEDuration="1" Group="g_ckang2" JobID="108864" JobName="RLD2_6" MasterHost="gizmod76" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868816" RunPriority="11614" StartPriority="11614" StartTime="1346868816" StatPSDed="12230.240000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868815" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868816" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12221" Account="noaccount" Class="tukwila" DRMJID="108865" EEDuration="5" Group="g_ckang2" JobID="108865" JobName="RLD3_3" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868827" RunPriority="11614" StartPriority="11614" StartTime="1346868827" StatPSDed="12219.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868822" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868827" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12221" Account="noaccount" Class="tukwila" DRMJID="108866" EEDuration="2" Group="g_ckang2" JobID="108866" JobName="RLD3_6" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868827" RunPriority="11614" StartPriority="11614" StartTime="1346868827" StatPSDed="12219.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868825" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868827" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12210" Account="noaccount" Class="tukwila" DRMJID="108867" EEDuration="8" Group="g_ckang2" JobID="108867" JobName="RLD3_8" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868838" RunPriority="11614" StartPriority="11614" StartTime="1346868838" StatPSDed="12208.250000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868830" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868838" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12155" Account="noaccount" Class="tukwila" DRMJID="108871" EEDuration="7" Group="g_ckang2" JobID="108871" JobName="RLD2_12" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868893" RunPriority="11614" StartPriority="11614" StartTime="1346868893" StatPSDed="12153.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868886" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868893" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12133" Account="noaccount" Class="tukwila" DRMJID="108872" EEDuration="1" Group="g_ckang2" JobID="108872" JobName="RLD2_17" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868915" RunPriority="11614" StartPriority="11614" StartTime="1346868915" StatPSDed="12131.250000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868914" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868915" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12122" Account="noaccount" Class="tukwila" DRMJID="108874" EEDuration="2" Group="g_ckang2" JobID="108874" JobName="RLD3_12" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868926" RunPriority="11614" StartPriority="11614" StartTime="1346868926" StatPSDed="12120.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868924" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868926" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12122" Account="noaccount" Class="tukwila" DRMJID="108873" EEDuration="4" Group="g_ckang2" JobID="108873" JobName="RLD3_11" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868926" RunPriority="11614" StartPriority="11614" StartTime="1346868926" StatPSDed="12120.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868922" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868926" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12111" Account="noaccount" Class="tukwila" DRMJID="108875" EEDuration="7" Group="g_ckang2" JobID="108875" JobName="RLD3_14" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868937" RunPriority="11614" StartPriority="11614" StartTime="1346868937" StatPSDed="12109.270000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868930" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868937" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="12111" Account="noaccount" Class="tukwila" DRMJID="108876" EEDuration="5" Group="g_ckang2" JobID="108876" JobName="RLD3_16" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868937" RunPriority="11614" StartPriority="11614" StartTime="1346868937" StatPSDed="12109.270000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868932" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346868937" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="11979" Account="noaccount" Class="tukwila" DRMJID="108878" EEDuration="7" Group="g_ckang2" JobID="108878" JobName="bCM_t1_5" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346869069" RunPriority="11614" StartPriority="11614" StartTime="1346869069" StatPSDed="11977.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346869062" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346869069" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="11979" Account="noaccount" Class="tukwila" DRMJID="108877" EEDuration="9" Group="g_ckang2" JobID="108877" JobName="bCM_t1_3" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346869069" RunPriority="11614" StartPriority="11614" StartTime="1346869069" StatPSDed="11977.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346869060" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346869069" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="10505" Account="noaccount" Class="tukwila" DRMJID="108894" EEDuration="1" Group="g_syin2" JobID="108894" JobName="R" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346870543" RunPriority="11614" StartPriority="11614" StartTime="1346870543" StatPSDed="10503.540000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346870542" SuspendDuration="0" User="syin2">
-<par ID="tukwila" RsvStartTime="1346870543" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="9724" Account="noaccount" Class="tukwila" DRMJID="108902" EEDuration="11" Group="g_ckang2" JobID="108902" JobName="RLD1_19" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346871324" RunPriority="11614" StartPriority="11614" StartTime="1346871324" StatPSDed="9722.670000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346871313" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346871324" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="1478459" Account="feng_z" Class="tukwila" DRMJID="95478" EEDuration="3" Group="g_rfu" JobID="95478" JobName="sbatch" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402589" RunPriority="8287" StartPriority="8287" StartTime="1345402589" StatPSDed="2956704.920000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402586" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402589" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95482" EEDuration="4" Group="g_rfu" JobID="95482" JobName="sbatch" MasterHost="gizmod93" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402596" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95483" EEDuration="2" Group="g_rfu" JobID="95483" JobName="sbatch" MasterHost="gizmod93" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402598" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95480" EEDuration="9" Group="g_rfu" JobID="95480" JobName="sbatch" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402591" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95479" EEDuration="11" Group="g_rfu" JobID="95479" JobName="sbatch" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402589" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478437" Account="feng_z" Class="tukwila" DRMJID="95487" EEDuration="4" Group="g_rfu" JobID="95487" JobName="sbatch" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402611" RunPriority="8287" StartPriority="8287" StartTime="1345402611" StatPSDed="2956660.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402607" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402611" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478437" Account="feng_z" Class="tukwila" DRMJID="95484" EEDuration="11" Group="g_rfu" JobID="95484" JobName="sbatch" MasterHost="gizmod93" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402611" RunPriority="8287" StartPriority="8287" StartTime="1345402611" StatPSDed="2956660.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402600" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402611" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95489" EEDuration="8" Group="g_rfu" JobID="95489" JobName="sbatch" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402647" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95492" EEDuration="2" Group="g_rfu" JobID="95492" JobName="sbatch" MasterHost="gizmod90" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402653" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95490" EEDuration="6" Group="g_rfu" JobID="95490" JobName="sbatch" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402649" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95491" EEDuration="4" Group="g_rfu" JobID="95491" JobName="sbatch" MasterHost="gizmod91" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402651" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478382" Account="feng_z" Class="tukwila" DRMJID="95493" EEDuration="11" Group="g_rfu" JobID="95493" JobName="sbatch" MasterHost="gizmod90" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402666" RunPriority="8287" StartPriority="8287" StartTime="1345402666" StatPSDed="2956550.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402655" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402666" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="1478382" Account="feng_z" Class="tukwila" DRMJID="95494" EEDuration="8" Group="g_rfu" JobID="95494" JobName="sbatch" MasterHost="gizmod90" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402666" RunPriority="8287" StartPriority="8287" StartTime="1345402666" StatPSDed="2956550.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402658" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1345402666" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="6534" Account="matsen_e" Class="tukwila" DRMJID="108928" EEDuration="8" Group="g_csmall" JobID="108928" JobName="guppy" MasterHost="gizmoc13" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346874514" RunPriority="14402" StartPriority="14402" StartTime="1346874514" StatPSDed="6533.210000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346874506" SuspendDuration="0" User="csmall">
-<par ID="tukwila" RsvStartTime="1346874514" StartPriority="14402">
-</par>
-</job>
-<job AWDuration="4257" Account="hsu_l" Class="any" DRMJID="108935" EEDuration="2" Group="g_jhjeon" JobID="108935" JobName="bash" MasterHost="gizmod57" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346876791" RunPriority="6981" StartPriority="6981" StartTime="1346876791" StatPSDed="51079.440000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346876789" SuspendDuration="0" User="jhjeon">
-<par ID="campus" RsvStartTime="1346876791" StartPriority="6981">
-</par>
-<par ID="tukwila" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="4114" Account="hsu_l" Class="any" DRMJID="108936" EEDuration="8" Group="g_jhjeon" JobID="108936" JobName="bash" MasterHost="gizmod56" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346876934" RunPriority="6981" StartPriority="6981" StartTime="1346876934" StatPSDed="49363.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346876926" SuspendDuration="0" User="jhjeon">
-<par ID="campus" RsvStartTime="1346876934" StartPriority="6981">
-</par>
-<par ID="tukwila" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="3982" Account="hsu_l" Class="any" DRMJID="108937" EEDuration="10" Group="g_jhjeon" JobID="108937" JobName="bash" MasterHost="gizmod58" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346877066" RunPriority="6981" StartPriority="6981" StartTime="1346877066" StatPSDed="47779.440000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346877056" SuspendDuration="0" User="jhjeon">
-<par ID="campus" RsvStartTime="1346877066" StartPriority="6981">
-</par>
-<par ID="tukwila" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="7492" Account="moens_c" Class="any" DRMJID="108925" EEDuration="1" Group="g_amiller" JobID="108925" JobName="tophat_apple_wtALL.slurm" MasterHost="gizmod4" PAL="campus" ReqAWDuration="262800" ReqProcs="1" RsvStartTime="1346873556" RunPriority="14977" StartPriority="14977" StartTime="1346873556" StatPSDed="7490.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873555" SuspendDuration="0" User="amiller">
-<par ID="campus" RsvStartTime="1346873556" StartPriority="14977">
-</par>
-<par ID="tukwila" StartPriority="14977">
-</par>
-</job>
-<job AWDuration="3861" Account="hsu_l" Class="any" DRMJID="108940" EEDuration="1" Group="g_jhjeon" JobID="108940" JobName="bash" MasterHost="gizmod3" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346877187" RunPriority="6981" StartPriority="6981" StartTime="1346877187" StatPSDed="46327.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346877186" SuspendDuration="0" User="jhjeon">
-<par ID="campus" RsvStartTime="1346877187" StartPriority="6981">
-</par>
-<par ID="tukwila" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="1375" Account="noaccount" Class="tukwila" DRMJID="108994" EEDuration="11" Group="g_syin2" JobID="108994" JobName="R" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346879673" RunPriority="11614" StartPriority="11614" StartTime="1346879673" StatPSDed="1374.870000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346879662" SuspendDuration="0" User="syin2">
-<par ID="tukwila" RsvStartTime="1346879673" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="103948" Account="kooperberg_c" Class="campus" DRMJID="108598" EEDuration="3" Group="g_ylin2" JobID="108598" JobName="sbatch" MasterHost="gizmod24" PAL="campus" ReqAWDuration="518400" ReqProcs="100" RsvStartTime="1346777100" RunPriority="1" StartPriority="1" StartTime="1346777100" StatPSDed="10392782.000000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346777097" SuspendDuration="0" User="ylin2">
-<par ID="campus" RsvStartTime="1346777100" StartPriority="1">
-</par>
-</job>
-<job AWDuration="102650" Account="kurland_b" Class="tukwila" DRMJID="108604" EEDuration="9" Group="g_xchai" JobID="108604" JobName="grabfullnode" MasterHost="gizmod84" PAL="tukwila" ReqAWDuration="518400" ReqNodes="1" ReqProcs="12" RsvStartTime="1346778398" RunPriority="13648" StartPriority="13648" StartTime="1346778398" StatPSDed="1231562.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346778389" SuspendDuration="0" User="xchai">
-<par ID="tukwila" RsvStartTime="1346778398" StartPriority="13648">
-</par>
-</job>
-<job AWDuration="451206" Account="noaccount" Class="tukwila" DRMJID="106988" EEDuration="5" Group="g_nclegg" JobID="106988" JobName="grabnode" MasterHost="gizmod89" PAL="tukwila" ReqAWDuration="1036800" ReqNodes="1" ReqProcs="6" RsvStartTime="1346429842" RunPriority="11614" StartPriority="11614" StartTime="1346429842" StatPSDed="2707100.460000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429837" SuspendDuration="0" User="nclegg">
-<par ID="tukwila" RsvStartTime="1346429842" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="611631" Account="tapscott_s" Class="tukwila" DRMJID="105513" EEDuration="5" Group="haldaemon" JobID="105513" JobName="grabquarternode" MasterHost="gizmod83" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="3" RsvStartTime="1346269417" RunPriority="14662" StartPriority="14662" StartTime="1346269417" StatPSDed="1834849.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346269412" SuspendDuration="0" User="jayoung">
-<par ID="tukwila" RsvStartTime="1346269417" StartPriority="14662">
-</par>
-</job>
-<job AWDuration="1746656" Account="luebeck_g" Class="tukwila" DRMJID="94573" EEDuration="2" Group="g_hazelton" JobID="94573" JobName="grabfullnode" MasterHost="gizmod99" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="12" RsvStartTime="1345134392" RunPriority="12297" StartPriority="12297" StartTime="1345134392" StatPSDed="20958463.679999" StatPSUtl="0.000000" State="Running" SubmissionTime="1345134249" SuspendDuration="0" User="hazelton">
-<par ID="tukwila" RsvStartTime="1345134392" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="172888" Account="hsu_l" Class="tukwila" DRMJID="108460" EEDuration="7" Group="g_jhjeon" JobID="108460" JobName="grabcpu" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708160" RunPriority="6981" StartPriority="6981" StartTime="1346708160" StatPSDed="172879.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708153" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708160" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172866" Account="hsu_l" Class="tukwila" DRMJID="108461" EEDuration="3" Group="g_jhjeon" JobID="108461" JobName="grabcpu" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708182" RunPriority="6981" StartPriority="6981" StartTime="1346708182" StatPSDed="172857.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708179" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708182" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172844" Account="hsu_l" Class="tukwila" DRMJID="108462" EEDuration="9" Group="g_jhjeon" JobID="108462" JobName="grabcpu" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708204" RunPriority="6981" StartPriority="6981" StartTime="1346708204" StatPSDed="172835.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708195" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708204" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172822" Account="hsu_l" Class="tukwila" DRMJID="108463" EEDuration="7" Group="g_jhjeon" JobID="108463" JobName="grabcpu" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708226" RunPriority="6981" StartPriority="6981" StartTime="1346708226" StatPSDed="172813.020000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708219" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708226" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172800" Account="hsu_l" Class="tukwila" DRMJID="108464" EEDuration="2" Group="g_jhjeon" JobID="108464" JobName="grabcpu" MasterHost="gizmod89" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708248" RunPriority="6981" StartPriority="6981" StartTime="1346708248" StatPSDed="172791.110000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708246" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708248" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172778" Account="hsu_l" Class="tukwila" DRMJID="108465" EEDuration="4" Group="g_jhjeon" JobID="108465" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708270" RunPriority="6981" StartPriority="6981" StartTime="1346708270" StatPSDed="172769.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708266" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708270" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172756" Account="hsu_l" Class="tukwila" DRMJID="108466" EEDuration="4" Group="g_jhjeon" JobID="108466" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708292" RunPriority="6981" StartPriority="6981" StartTime="1346708292" StatPSDed="172747.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708288" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708292" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172734" Account="hsu_l" Class="tukwila" DRMJID="108467" EEDuration="2" Group="g_jhjeon" JobID="108467" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708314" RunPriority="6981" StartPriority="6981" StartTime="1346708314" StatPSDed="172725.140000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708312" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708314" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172701" Account="hsu_l" Class="tukwila" DRMJID="108468" EEDuration="11" Group="g_jhjeon" JobID="108468" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708347" RunPriority="6981" StartPriority="6981" StartTime="1346708347" StatPSDed="172692.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708336" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708347" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172690" Account="hsu_l" Class="tukwila" DRMJID="108469" EEDuration="1" Group="g_jhjeon" JobID="108469" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708358" RunPriority="6981" StartPriority="6981" StartTime="1346708358" StatPSDed="172681.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708357" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708358" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172635" Account="hsu_l" Class="tukwila" DRMJID="108470" EEDuration="10" Group="g_jhjeon" JobID="108470" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708413" RunPriority="6981" StartPriority="6981" StartTime="1346708413" StatPSDed="172626.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708403" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708413" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172613" Account="hsu_l" Class="tukwila" DRMJID="108471" EEDuration="3" Group="g_jhjeon" JobID="108471" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708435" RunPriority="6981" StartPriority="6981" StartTime="1346708435" StatPSDed="172604.140000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708432" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708435" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172591" Account="hsu_l" Class="tukwila" DRMJID="108472" EEDuration="2" Group="g_jhjeon" JobID="108472" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708457" RunPriority="6981" StartPriority="6981" StartTime="1346708457" StatPSDed="172582.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708455" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708457" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172569" Account="hsu_l" Class="tukwila" DRMJID="108473" EEDuration="4" Group="g_jhjeon" JobID="108473" JobName="grabcpu" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708479" RunPriority="6981" StartPriority="6981" StartTime="1346708479" StatPSDed="172560.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708475" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708479" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172503" Account="hsu_l" Class="tukwila" DRMJID="108474" EEDuration="4" Group="g_jhjeon" JobID="108474" JobName="grabcpu" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708545" RunPriority="6981" StartPriority="6981" StartTime="1346708545" StatPSDed="172494.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708541" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708545" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172481" Account="hsu_l" Class="tukwila" DRMJID="108475" EEDuration="7" Group="g_jhjeon" JobID="108475" JobName="grabcpu" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708567" RunPriority="6981" StartPriority="6981" StartTime="1346708567" StatPSDed="172471.970000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708560" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708567" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172459" Account="hsu_l" Class="tukwila" DRMJID="108476" EEDuration="3" Group="g_jhjeon" JobID="108476" JobName="grabcpu" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708589" RunPriority="6981" StartPriority="6981" StartTime="1346708589" StatPSDed="172450.170000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708586" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708589" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="172426" Account="hsu_l" Class="tukwila" DRMJID="108477" EEDuration="5" Group="g_jhjeon" JobID="108477" JobName="grabcpu" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708622" RunPriority="6981" StartPriority="6981" StartTime="1346708622" StatPSDed="172417.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708617" SuspendDuration="0" User="jhjeon">
-<par ID="tukwila" RsvStartTime="1346708622" StartPriority="6981">
-</par>
-</job>
-<job AWDuration="619590" Account="noaccount" Class="any" DRMJID="105181" EEDuration="3" Group="g_rmeza" JobID="105181" JobName="bash" MasterHost="gizmod54" PAL="campus" ReqAWDuration="1728000" ReqNodes="1" ReqProcs="12" RsvStartTime="1346261458" RunPriority="11614" StartPriority="11614" StartTime="1346261458" StatPSDed="7434904.440001" StatPSUtl="0.000000" State="Running" SubmissionTime="1346261455" SuspendDuration="0" User="rmeza">
-<par ID="campus" RsvStartTime="1346261458" StartPriority="11614">
-</par>
-<par ID="tukwila" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="3311" Account="robins_h" Class="tukwila" DRMJID="108970" EEDuration="11" Group="g_rmukherj" JobID="108970" JobName="grabnode" MasterHost="gizmod70" PAL="tukwila" ReqAWDuration="1296000" ReqNodes="1" ReqProcs="6" RsvStartTime="1346877737" RunPriority="14932" StartPriority="14932" StartTime="1346877737" StatPSDed="19864.080000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346877726" SuspendDuration="0" User="rmukherj">
-<par ID="tukwila" RsvStartTime="1346877737" StartPriority="14932">
-</par>
-</job>
-<job AWDuration="250244" Account="feng_z" Class="tukwila" DRMJID="108382" EEDuration="8" Group="g_rfu" JobID="108382" JobName="sbatch" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346630804" RunPriority="8287" StartPriority="8287" StartTime="1346630804" StatPSDed="500455.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630796" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346630804" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="250056" Account="feng_z" Class="tukwila" DRMJID="108383" EEDuration="5" Group="g_rfu" JobID="108383" JobName="sbatch" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346630992" RunPriority="8287" StartPriority="8287" StartTime="1346630992" StatPSDed="500078.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630987" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346630992" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="250034" Account="feng_z" Class="tukwila" DRMJID="108385" EEDuration="15" Group="g_rfu" JobID="108385" JobName="sbatch" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631014" RunPriority="8287" StartPriority="8287" StartTime="1346631014" StatPSDed="500034.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630999" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631014" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="250034" Account="feng_z" Class="tukwila" DRMJID="108384" EEDuration="17" Group="g_rfu" JobID="108384" JobName="sbatch" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631014" RunPriority="8287" StartPriority="8287" StartTime="1346631014" StatPSDed="500034.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630997" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631014" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="250023" Account="feng_z" Class="tukwila" DRMJID="108389" EEDuration="3" Group="g_rfu" JobID="108389" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631025" RunPriority="8287" StartPriority="8287" StartTime="1346631025" StatPSDed="500013.140000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631022" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631025" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="249979" Account="feng_z" Class="tukwila" DRMJID="108391" EEDuration="3" Group="g_rfu" JobID="108391" JobName="sbatch" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631069" RunPriority="8287" StartPriority="8287" StartTime="1346631069" StatPSDed="499925.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631066" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631069" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108395" EEDuration="3" Group="g_rfu" JobID="108395" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631077" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108393" EEDuration="9" Group="g_rfu" JobID="108393" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631071" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108392" EEDuration="11" Group="g_rfu" JobID="108392" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631069" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108394" EEDuration="6" Group="g_rfu" JobID="108394" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631074" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="249759" Account="feng_z" Class="tukwila" DRMJID="108397" EEDuration="8" Group="g_rfu" JobID="108397" JobName="sbatch" MasterHost="gizmod79" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631289" RunPriority="8287" StartPriority="8287" StartTime="1346631289" StatPSDed="499485.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631281" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631289" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="249759" Account="feng_z" Class="tukwila" DRMJID="108398" EEDuration="6" Group="g_rfu" JobID="108398" JobName="sbatch" MasterHost="gizmod79" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631289" RunPriority="8287" StartPriority="8287" StartTime="1346631289" StatPSDed="499485.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631283" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346631289" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="242228" Account="feng_z" Class="tukwila" DRMJID="108399" EEDuration="2" Group="g_rfu" JobID="108399" JobName="sbatch" MasterHost="gizmod82" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346638820" RunPriority="8287" StartPriority="8287" StartTime="1346638820" StatPSDed="484426.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631309" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346638820" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="198072" Account="feng_z" Class="tukwila" DRMJID="108400" EEDuration="11" Group="g_rfu" JobID="108400" JobName="sbatch" MasterHost="gizmod101" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346682976" RunPriority="8287" StartPriority="8287" StartTime="1346682976" StatPSDed="396120.940000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631311" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346682976" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="152344" Account="feng_z" Class="tukwila" DRMJID="108401" EEDuration="10" Group="g_rfu" JobID="108401" JobName="sbatch" MasterHost="gizmod83" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346728704" RunPriority="8287" StartPriority="8287" StartTime="1346728704" StatPSDed="304662.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631312" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346728704" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="104995" Account="feng_z" Class="tukwila" DRMJID="108402" EEDuration="7" Group="g_rfu" JobID="108402" JobName="sbatch" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346776053" RunPriority="8287" StartPriority="8287" StartTime="1346776053" StatPSDed="209949.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631315" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346776053" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="45404" Account="feng_z" Class="tukwila" DRMJID="108403" EEDuration="5" Group="g_rfu" JobID="108403" JobName="sbatch" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346835644" RunPriority="8287" StartPriority="8287" StartTime="1346835644" StatPSDed="90792.580000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631317" SuspendDuration="0" User="rfu">
-<par ID="tukwila" RsvStartTime="1346835644" StartPriority="8287">
-</par>
-</job>
-<job AWDuration="451316" Account="luebeck_g" Class="any" DRMJID="106981" EEDuration="2" Group="g_hazelton" JobID="106981" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429732" RunPriority="12297" StartPriority="12297" StartTime="1346429732" StatPSDed="451293.450000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429730" SuspendDuration="0" User="hazelton">
-<par ID="campus" RsvStartTime="1346429732" StartPriority="12297">
-</par>
-<par ID="tukwila" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="451283" Account="luebeck_g" Class="any" DRMJID="106982" EEDuration="5" Group="g_hazelton" JobID="106982" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429765" RunPriority="12297" StartPriority="12297" StartTime="1346429765" StatPSDed="451260.420000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429760" SuspendDuration="0" User="hazelton">
-<par ID="campus" RsvStartTime="1346429765" StartPriority="12297">
-</par>
-<par ID="tukwila" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="451272" Account="luebeck_g" Class="any" DRMJID="106983" EEDuration="4" Group="g_hazelton" JobID="106983" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429776" RunPriority="12297" StartPriority="12297" StartTime="1346429776" StatPSDed="451249.440000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429772" SuspendDuration="0" User="hazelton">
-<par ID="campus" RsvStartTime="1346429776" StartPriority="12297">
-</par>
-<par ID="tukwila" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="451261" Account="luebeck_g" Class="any" DRMJID="106985" EEDuration="8" Group="g_hazelton" JobID="106985" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429787" RunPriority="12297" StartPriority="12297" StartTime="1346429787" StatPSDed="451238.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429779" SuspendDuration="0" User="hazelton">
-<par ID="campus" RsvStartTime="1346429787" StartPriority="12297">
-</par>
-<par ID="tukwila" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="451250" Account="luebeck_g" Class="any" DRMJID="106986" EEDuration="8" Group="g_hazelton" JobID="106986" JobName="bash" MasterHost="gizmod11" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429798" RunPriority="12297" StartPriority="12297" StartTime="1346429798" StatPSDed="451227.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429790" SuspendDuration="0" User="hazelton">
-<par ID="campus" RsvStartTime="1346429798" StartPriority="12297">
-</par>
-<par ID="tukwila" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="451239" Account="luebeck_g" Class="any" DRMJID="106987" EEDuration="7" Group="g_hazelton" JobID="106987" JobName="bash" MasterHost="gizmod11" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429809" RunPriority="12297" StartPriority="12297" StartTime="1346429809" StatPSDed="451216.430000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429802" SuspendDuration="0" User="hazelton">
-<par ID="campus" RsvStartTime="1346429809" StartPriority="12297">
-</par>
-<par ID="tukwila" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="446979" Account="luebeck_g" Class="tukwila" DRMJID="107017" EEDuration="1" Group="g_hazelton" JobID="107017" JobName="grabhalfnode" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="2592000" ReqNodes="1" ReqProcs="6" RsvStartTime="1346434069" RunPriority="12297" StartPriority="12297" StartTime="1346434069" StatPSDed="2681739.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346434068" SuspendDuration="0" User="hazelton">
-<par ID="tukwila" RsvStartTime="1346434069" StartPriority="12297">
-</par>
-</job>
-<job AWDuration="9581" Account="noaccount" Class="tukwila" DRMJID="108909" EEDuration="2" Group="g_ckang2" JobID="108909" JobName="RLD1_19" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346871467" RunPriority="11614" StartPriority="11614" StartTime="1346871467" StatPSDed="9579.600000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346871465" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346871467" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="9307" Account="noaccount" Class="tukwila" DRMJID="108911" EEDuration="8" Group="g_ckang2" JobID="108911" JobName="RLD2_9" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346871741" RunPriority="11614" StartPriority="11614" StartTime="1346871741" StatPSDed="9305.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346871733" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346871741" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7580" Account="noaccount" Class="tukwila" DRMJID="108917" EEDuration="8" Group="g_ckang2" JobID="108917" JobName="kp_c11_23" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873468" RunPriority="11614" StartPriority="11614" StartTime="1346873468" StatPSDed="7578.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873460" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873468" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108920" EEDuration="4" Group="g_ckang2" JobID="108920" JobName="kp_c12_7" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873475" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108921" EEDuration="3" Group="g_ckang2" JobID="108921" JobName="kp_c12_8" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873476" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108919" EEDuration="5" Group="g_ckang2" JobID="108919" JobName="kp_c12_6" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873474" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108918" EEDuration="8" Group="g_ckang2" JobID="108918" JobName="kp_c12_5" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873471" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7558" Account="noaccount" Class="tukwila" DRMJID="108922" EEDuration="8" Group="g_ckang2" JobID="108922" JobName="kp_c12_10" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873490" RunPriority="11614" StartPriority="11614" StartTime="1346873490" StatPSDed="7556.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873482" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873490" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7558" Account="noaccount" Class="tukwila" DRMJID="108924" EEDuration="6" Group="g_ckang2" JobID="108924" JobName="kp_c12_12" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873490" RunPriority="11614" StartPriority="11614" StartTime="1346873490" StatPSDed="7556.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873484" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873490" StartPriority="11614">
-</par>
-</job>
-<job AWDuration="7558" Account="noaccount" Class="tukwila" DRMJID="108923" EEDuration="7" Group="g_ckang2" JobID="108923" JobName="kp_c12_11" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873490" RunPriority="11614" StartPriority="11614" StartTime="1346873490" StatPSDed="7556.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873483" SuspendDuration="0" User="ckang2">
-<par ID="tukwila" RsvStartTime="1346873490" StartPriority="11614">
-</par>
-</job>
-</queue>
-</Data>
+    <Object>queue</Object>
+        <cluster
+            LocalActiveNodes="88"
+            LocalAllocProcs="906"
+            LocalConfigNodes="131"
+            LocalIdleNodes="29"
+            LocalIdleProcs="570"
+            LocalUpNodes="117"
+            LocalUpProcs="1456"
+            RemoteActiveNodes="0"
+            RemoteAllocProcs="0"
+            RemoteConfigNodes="0"
+            RemoteIdleNodes="0"
+            RemoteIdleProcs="0"
+            RemoteUpNodes="0"
+            RemoteUpProcs="0"
+            time="1346881057">
+        </cluster>
+        <queue count="149" option="active">
+            <job
+                AWDuration="446330"
+                Account="matsen_e"
+                Class="any"
+                DRMJID="107020"
+                EEDuration="2"
+                Group="g_crosenth"
+                JobID="107020"
+                JobName="ssearch36"
+                MasterHost="gizmod10"
+                PAL="campus"
+                ReqAWDuration="259200"
+                ReqProcs="1"
+                RsvStartTime="1346434718"
+                RunPriority="14402"
+                StartPriority="14402"
+                StartTime="1346434718"
+                StatPSDed="446307.460000"
+                StatPSUtl="0.000000"
+                State="Running"
+                SubmissionTime="1346434716"
+                SuspendDuration="0"
+                User="crosenth">
+                <par ID="campus" RsvStartTime="1346434718" StartPriority="14402">
+                </par>
+                <par ID="tukwila" StartPriority="14402">
+                </par>
+            </job>
+    <job AWDuration="445340" Account="matsen_e" Class="any" DRMJID="107029" EEDuration="8" Group="g_crosenth" JobID="107029" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346435708" RunPriority="14402" StartPriority="14402" StartTime="1346435708" StatPSDed="445317.670000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346435700" SuspendDuration="0" User="crosenth">
+    <par ID="campus" RsvStartTime="1346435708" StartPriority="14402">
+    </par>
+    <par ID="tukwila" StartPriority="14402">
+    </par>
+    </job>
+    <job AWDuration="443646" Account="matsen_e" Class="any" DRMJID="107037" EEDuration="4" Group="g_crosenth" JobID="107037" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346437402" RunPriority="14402" StartPriority="14402" StartTime="1346437402" StatPSDed="443623.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346437398" SuspendDuration="0" User="crosenth">
+    <par ID="campus" RsvStartTime="1346437402" StartPriority="14402">
+    </par>
+    <par ID="tukwila" StartPriority="14402">
+    </par>
+    </job>
+    <job AWDuration="439266" Account="matsen_e" Class="any" DRMJID="107680" EEDuration="5" Group="g_crosenth" JobID="107680" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346441782" RunPriority="14402" StartPriority="14402" StartTime="1346441782" StatPSDed="439243.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346441777" SuspendDuration="0" User="crosenth">
+    <par ID="campus" RsvStartTime="1346441782" StartPriority="14402">
+    </par>
+    <par ID="tukwila" StartPriority="14402">
+    </par>
+    </job>
+    <job AWDuration="439189" Account="matsen_e" Class="any" DRMJID="107681" EEDuration="7" Group="g_crosenth" JobID="107681" JobName="ssearch36" MasterHost="gizmod10" PAL="campus" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346441859" RunPriority="14402" StartPriority="14402" StartTime="1346441859" StatPSDed="439166.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346441852" SuspendDuration="0" User="crosenth">
+    <par ID="campus" RsvStartTime="1346441859" StartPriority="14402">
+    </par>
+    <par ID="tukwila" StartPriority="14402">
+    </par>
+    </job>
+    <job AWDuration="367402" Account="wang_p" Class="tukwila" DRMJID="108145" EEDuration="6" Group="g_pdanaher" JobID="108145" JobName="grabquarternode" MasterHost="gizmod89" PAL="tukwila" ReqAWDuration="259200" ReqNodes="1" ReqProcs="3" RsvStartTime="1346513646" RunPriority="14335" StartPriority="14335" StartTime="1346513646" StatPSDed="1102133.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346513640" SuspendDuration="0" User="pdanaher">
+    <par ID="tukwila" RsvStartTime="1346513646" StartPriority="14335">
+    </par>
+    </job>
+    <job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108558" EEDuration="1" Group="g_pbradley" JobID="108558" JobName="job17b2" MasterHost="gizmod101" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767410" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108556" EEDuration="5" Group="g_pbradley" JobID="108556" JobName="job17b2" MasterHost="gizmod73" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767406" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108555" EEDuration="7" Group="g_pbradley" JobID="108555" JobName="job17b2" MasterHost="gizmod83" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767404" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108557" EEDuration="3" Group="g_pbradley" JobID="108557" JobName="job17b2" MasterHost="gizmod71" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767408" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113626" Account="bradley_p" Class="any" DRMJID="108560" EEDuration="8" Group="g_pbradley" JobID="108560" JobName="job17b2" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767422" RunPriority="1" StartPriority="1" StartTime="1346767422" StatPSDed="1363250.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767414" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767422" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113626" Account="bradley_p" Class="any" DRMJID="108561" EEDuration="6" Group="g_pbradley" JobID="108561" JobName="job17b2" MasterHost="gizmod94" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767422" RunPriority="1" StartPriority="1" StartTime="1346767422" StatPSDed="1363250.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767416" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767422" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113626" Account="bradley_p" Class="any" DRMJID="108559" EEDuration="10" Group="g_pbradley" JobID="108559" JobName="job17b2" MasterHost="gizmod97" PAL="tukwila" ReqAWDuration="86400" ReqProcs="12" RsvStartTime="1346767422" RunPriority="1" StartPriority="1" StartTime="1346767422" StatPSDed="1363250.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767412" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767422" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113692" Account="bradley_p" Class="any" DRMJID="108531" EEDuration="2" Group="g_pbradley" JobID="108531" JobName="job17b2" MasterHost="gizmod52" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767356" RunPriority="1" StartPriority="1" StartTime="1346767356" StatPSDed="1364041.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767354" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767356" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113692" Account="bradley_p" Class="any" DRMJID="108529" EEDuration="6" Group="g_pbradley" JobID="108529" JobName="job17b2" MasterHost="gizmod59" PAL="campus" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767356" RunPriority="1" StartPriority="1" StartTime="1346767356" StatPSDed="1364041.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767350" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767356" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113692" Account="bradley_p" Class="any" DRMJID="108530" EEDuration="4" Group="g_pbradley" JobID="108530" JobName="job17b2" MasterHost="gizmod53" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767356" RunPriority="1" StartPriority="1" StartTime="1346767356" StatPSDed="1364041.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767352" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767356" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108536" EEDuration="3" Group="g_pbradley" JobID="108536" JobName="job17b2" MasterHost="gizmod36" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767364" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767367" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108535" EEDuration="5" Group="g_pbradley" JobID="108535" JobName="job17b2" MasterHost="gizmod37" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767362" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767367" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108532" EEDuration="11" Group="g_pbradley" JobID="108532" JobName="job17b2" MasterHost="gizmod51" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767356" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767367" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108534" EEDuration="7" Group="g_pbradley" JobID="108534" JobName="job17b2" MasterHost="gizmod11" PAL="campus" ReqAWDuration="129600" ReqNodes="3" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767360" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767367" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108537" EEDuration="1" Group="g_pbradley" JobID="108537" JobName="job17b2" MasterHost="gizmod35" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767366" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767367" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113681" Account="bradley_p" Class="any" DRMJID="108533" EEDuration="9" Group="g_pbradley" JobID="108533" JobName="job17b2" MasterHost="gizmod21" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767367" RunPriority="1" StartPriority="1" StartTime="1346767367" StatPSDed="1363909.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767358" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767367" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108541" EEDuration="4" Group="g_pbradley" JobID="108541" JobName="job17b2" MasterHost="gizmod29" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767374" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767378" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108542" EEDuration="1" Group="g_pbradley" JobID="108542" JobName="job17b2" MasterHost="gizmod25" PAL="campus" ReqAWDuration="129600" ReqNodes="3" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767377" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767378" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108538" EEDuration="10" Group="g_pbradley" JobID="108538" JobName="job17b2" MasterHost="gizmod33" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767368" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767378" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108539" EEDuration="8" Group="g_pbradley" JobID="108539" JobName="job17b2" MasterHost="gizmod31" PAL="campus" ReqAWDuration="129600" ReqNodes="3" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767370" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767378" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113670" Account="bradley_p" Class="any" DRMJID="108540" EEDuration="6" Group="g_pbradley" JobID="108540" JobName="job17b2" MasterHost="gizmod30" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767378" RunPriority="1" StartPriority="1" StartTime="1346767378" StatPSDed="1363777.680000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767372" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767378" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108543" EEDuration="10" Group="g_pbradley" JobID="108543" JobName="job17b2" MasterHost="gizmod24" PAL="campus" ReqAWDuration="129600" ReqNodes="2" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767379" SuspendDuration="0" User="pbradley">
+    <par ID="campus" RsvStartTime="1346767389" StartPriority="1">
+    </par>
+    <par ID="tukwila" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108547" EEDuration="2" Group="g_pbradley" JobID="108547" JobName="job17b2" MasterHost="gizmod115" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767387" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108546" EEDuration="4" Group="g_pbradley" JobID="108546" JobName="job17b2" MasterHost="gizmod104" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767385" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108545" EEDuration="6" Group="g_pbradley" JobID="108545" JobName="job17b2" MasterHost="gizmod105" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767383" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113659" Account="bradley_p" Class="any" DRMJID="108544" EEDuration="8" Group="g_pbradley" JobID="108544" JobName="job17b2" MasterHost="gizmod107" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767389" RunPriority="1" StartPriority="1" StartTime="1346767389" StatPSDed="1363641.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767381" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767389" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108551" EEDuration="5" Group="g_pbradley" JobID="108551" JobName="job17b2" MasterHost="gizmod111" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767395" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108553" EEDuration="1" Group="g_pbradley" JobID="108553" JobName="job17b2" MasterHost="gizmod109" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767399" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108549" EEDuration="9" Group="g_pbradley" JobID="108549" JobName="job17b2" MasterHost="gizmod113" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767391" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108552" EEDuration="3" Group="g_pbradley" JobID="108552" JobName="job17b2" MasterHost="gizmod110" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767397" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113648" Account="bradley_p" Class="any" DRMJID="108548" EEDuration="11" Group="g_pbradley" JobID="108548" JobName="job17b2" MasterHost="gizmod114" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767400" RunPriority="1" StartPriority="1" StartTime="1346767400" StatPSDed="1363509.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767389" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767400" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="113637" Account="bradley_p" Class="any" DRMJID="108554" EEDuration="9" Group="g_pbradley" JobID="108554" JobName="job17b2" MasterHost="gizmod108" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346767411" RunPriority="1" StartPriority="1" StartTime="1346767411" StatPSDed="1363382.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767402" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346767411" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="24033" Account="sr_genomics" Class="campus" DRMJID="108813" EEDuration="2" Group="g_solexa" JobID="108813" JobName="2012.09.05_apfong_bwa.sh_lane7_2.qsub" MasterHost="gizmod15" PAL="campus" ReqAWDuration="86400" ReqNodes="1" ReqProcs="4" RsvStartTime="1346857015" RunPriority="13308" StartPriority="13308" StartTime="1346857015" StatPSDed="96113.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346857013" SuspendDuration="0" User="solexa">
+    <par ID="campus" RsvStartTime="1346857015" StartPriority="13308">
+    </par>
+    </job>
+    <job AWDuration="24033" Account="sr_genomics" Class="campus" DRMJID="108812" EEDuration="6" Group="g_solexa" JobID="108812" JobName="2012.09.05_apfong_bwa.sh_lane7.qsub" MasterHost="gizmod15" PAL="campus" ReqAWDuration="86400" ReqNodes="1" ReqProcs="4" RsvStartTime="1346857015" RunPriority="13308" StartPriority="13308" StartTime="1346857015" StatPSDed="96113.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346857009" SuspendDuration="0" User="solexa">
+    <par ID="campus" RsvStartTime="1346857015" StartPriority="13308">
+    </par>
+    </job>
+    <job AWDuration="24022" Account="sr_genomics" Class="campus" DRMJID="108814" EEDuration="11" Group="g_solexa" JobID="108814" JobName="2012.09.05_apfong_bwa.sh_lane7_3.qsub" MasterHost="gizmod15" PAL="campus" ReqAWDuration="86400" ReqNodes="1" ReqProcs="4" RsvStartTime="1346857026" RunPriority="13308" StartPriority="13308" StartTime="1346857026" StatPSDed="96069.840000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346857015" SuspendDuration="0" User="solexa">
+    <par ID="campus" RsvStartTime="1346857026" StartPriority="13308">
+    </par>
+    </job>
+    <job AWDuration="517" Account="noaccount" Class="tukwila" DRMJID="109008" EEDuration="4" Group="g_hbolouri" JobID="109008" JobName="grabcpu" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="86400" ReqNodes="1" ReqProcs="1" RsvStartTime="1346880531" RunPriority="11614" StartPriority="11614" StartTime="1346880531" StatPSDed="517.030000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346880527" SuspendDuration="0" User="hbolouri">
+    <par ID="tukwila" RsvStartTime="1346880531" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="79161" Account="kooperberg_c" Class="any" DRMJID="108712" EEDuration="5" Group="g_ylin2" JobID="108712" JobName="sbatch" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="172800" ReqProcs="60" RsvStartTime="1346801887" RunPriority="1" StartPriority="1" StartTime="1346801887" StatPSDed="4748802.000000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346801882" SuspendDuration="0" User="ylin2">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346801887" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="6061" Account="bradley_p" Class="any" DRMJID="108562" EEDuration="4" Group="g_pbradley" JobID="108562" JobName="job17b2" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="129600" ReqProcs="12" RsvStartTime="1346874987" RunPriority="1" StartPriority="1" StartTime="1346874987" StatPSDed="72724.080000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346767418" SuspendDuration="0" User="pbradley">
+    <par ID="campus" StartPriority="1">
+    </par>
+    <par ID="tukwila" RsvStartTime="1346874987" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="25321" Account="scicomp" Class="tukwila" DRMJID="108809" EEDuration="7" Group="g_mrg" JobID="108809" JobName="grabcpu" MasterHost="gizmod80" PAL="tukwila" ReqAWDuration="172800" ReqNodes="1" ReqProcs="1" RsvStartTime="1346855727" RunPriority="14889" StartPriority="14889" StartTime="1346855727" StatPSDed="25316.100000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346855720" SuspendDuration="0" User="mrg">
+    <par ID="tukwila" RsvStartTime="1346855727" StartPriority="14889">
+    </par>
+    </job>
+    <job AWDuration="11352" Account="noaccount" Class="tukwila" DRMJID="108889" EEDuration="6" Group="g_hbolouri" JobID="108889" JobName="grabcpu" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="172800" ReqNodes="1" ReqProcs="1" RsvStartTime="1346869696" RunPriority="11614" StartPriority="11614" StartTime="1346869696" StatPSDed="11350.430000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346869690" SuspendDuration="0" User="hbolouri">
+    <par ID="tukwila" RsvStartTime="1346869696" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="75363" Account="peters_u" Class="any" DRMJID="108731" EEDuration="8" Group="g_cqu" JobID="108731" JobName="mpirun" MasterHost="gizmod11" PAL="campus" ReqAWDuration="259200" ReqProcs="100" RsvStartTime="1346805685" RunPriority="3739" StartPriority="3739" StartTime="1346805685" StatPSDed="7534959.000000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346805677" SuspendDuration="0" User="cqu">
+    <par ID="campus" RsvStartTime="1346805685" StartPriority="3739">
+    </par>
+    <par ID="tukwila" StartPriority="3739">
+    </par>
+    </job>
+    <job AWDuration="22404" Account="wang_p" Class="tukwila" DRMJID="108818" EEDuration="11" Group="g_pdanaher" JobID="108818" JobName="grabquarternode" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="259200" ReqNodes="1" ReqProcs="3" RsvStartTime="1346858644" RunPriority="14335" StartPriority="14335" StartTime="1346858644" StatPSDed="67199.700000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346858633" SuspendDuration="0" User="pdanaher">
+    <par ID="tukwila" RsvStartTime="1346858644" StartPriority="14335">
+    </par>
+    </job>
+    <job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108853" EEDuration="3" Group="g_ckang2" JobID="108853" JobName="kp_c12_11" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867284" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108854" EEDuration="2" Group="g_ckang2" JobID="108854" JobName="kp_c12_12" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867285" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108851" EEDuration="7" Group="g_ckang2" JobID="108851" JobName="kp_c12_9" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867280" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="13761" Account="noaccount" Class="tukwila" DRMJID="108852" EEDuration="5" Group="g_ckang2" JobID="108852" JobName="kp_c12_10" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867287" RunPriority="11614" StartPriority="11614" StartTime="1346867287" StatPSDed="13758.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867282" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346867287" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="13750" Account="noaccount" Class="tukwila" DRMJID="108857" Group="g_ckang2" JobID="108857" JobName="kp_c12_7" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867298" RunPriority="11614" StartPriority="11614" StartTime="1346867298" StatPSDed="13747.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867298" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346867298" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="13750" Account="noaccount" Class="tukwila" DRMJID="108856" EEDuration="1" Group="g_ckang2" JobID="108856" JobName="kp_c12_6" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867298" RunPriority="11614" StartPriority="11614" StartTime="1346867298" StatPSDed="13747.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867297" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346867298" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="13750" Account="noaccount" Class="tukwila" DRMJID="108855" EEDuration="2" Group="g_ckang2" JobID="108855" JobName="kp_c12_5" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346867298" RunPriority="11614" StartPriority="11614" StartTime="1346867298" StatPSDed="13747.850000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346867296" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346867298" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12232" Account="noaccount" Class="tukwila" DRMJID="108863" EEDuration="6" Group="g_ckang2" JobID="108863" JobName="RLD2_3" MasterHost="gizmod76" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868816" RunPriority="11614" StartPriority="11614" StartTime="1346868816" StatPSDed="12230.240000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868810" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868816" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12232" Account="noaccount" Class="tukwila" DRMJID="108864" EEDuration="1" Group="g_ckang2" JobID="108864" JobName="RLD2_6" MasterHost="gizmod76" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868816" RunPriority="11614" StartPriority="11614" StartTime="1346868816" StatPSDed="12230.240000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868815" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868816" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12221" Account="noaccount" Class="tukwila" DRMJID="108865" EEDuration="5" Group="g_ckang2" JobID="108865" JobName="RLD3_3" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868827" RunPriority="11614" StartPriority="11614" StartTime="1346868827" StatPSDed="12219.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868822" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868827" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12221" Account="noaccount" Class="tukwila" DRMJID="108866" EEDuration="2" Group="g_ckang2" JobID="108866" JobName="RLD3_6" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868827" RunPriority="11614" StartPriority="11614" StartTime="1346868827" StatPSDed="12219.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868825" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868827" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12210" Account="noaccount" Class="tukwila" DRMJID="108867" EEDuration="8" Group="g_ckang2" JobID="108867" JobName="RLD3_8" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868838" RunPriority="11614" StartPriority="11614" StartTime="1346868838" StatPSDed="12208.250000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868830" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868838" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12155" Account="noaccount" Class="tukwila" DRMJID="108871" EEDuration="7" Group="g_ckang2" JobID="108871" JobName="RLD2_12" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868893" RunPriority="11614" StartPriority="11614" StartTime="1346868893" StatPSDed="12153.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868886" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868893" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12133" Account="noaccount" Class="tukwila" DRMJID="108872" EEDuration="1" Group="g_ckang2" JobID="108872" JobName="RLD2_17" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868915" RunPriority="11614" StartPriority="11614" StartTime="1346868915" StatPSDed="12131.250000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868914" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868915" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12122" Account="noaccount" Class="tukwila" DRMJID="108874" EEDuration="2" Group="g_ckang2" JobID="108874" JobName="RLD3_12" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868926" RunPriority="11614" StartPriority="11614" StartTime="1346868926" StatPSDed="12120.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868924" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868926" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12122" Account="noaccount" Class="tukwila" DRMJID="108873" EEDuration="4" Group="g_ckang2" JobID="108873" JobName="RLD3_11" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868926" RunPriority="11614" StartPriority="11614" StartTime="1346868926" StatPSDed="12120.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868922" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868926" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12111" Account="noaccount" Class="tukwila" DRMJID="108875" EEDuration="7" Group="g_ckang2" JobID="108875" JobName="RLD3_14" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868937" RunPriority="11614" StartPriority="11614" StartTime="1346868937" StatPSDed="12109.270000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868930" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868937" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="12111" Account="noaccount" Class="tukwila" DRMJID="108876" EEDuration="5" Group="g_ckang2" JobID="108876" JobName="RLD3_16" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346868937" RunPriority="11614" StartPriority="11614" StartTime="1346868937" StatPSDed="12109.270000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346868932" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346868937" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="11979" Account="noaccount" Class="tukwila" DRMJID="108878" EEDuration="7" Group="g_ckang2" JobID="108878" JobName="bCM_t1_5" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346869069" RunPriority="11614" StartPriority="11614" StartTime="1346869069" StatPSDed="11977.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346869062" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346869069" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="11979" Account="noaccount" Class="tukwila" DRMJID="108877" EEDuration="9" Group="g_ckang2" JobID="108877" JobName="bCM_t1_3" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346869069" RunPriority="11614" StartPriority="11614" StartTime="1346869069" StatPSDed="11977.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346869060" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346869069" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="10505" Account="noaccount" Class="tukwila" DRMJID="108894" EEDuration="1" Group="g_syin2" JobID="108894" JobName="R" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346870543" RunPriority="11614" StartPriority="11614" StartTime="1346870543" StatPSDed="10503.540000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346870542" SuspendDuration="0" User="syin2">
+    <par ID="tukwila" RsvStartTime="1346870543" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="9724" Account="noaccount" Class="tukwila" DRMJID="108902" EEDuration="11" Group="g_ckang2" JobID="108902" JobName="RLD1_19" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346871324" RunPriority="11614" StartPriority="11614" StartTime="1346871324" StatPSDed="9722.670000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346871313" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346871324" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="1478459" Account="feng_z" Class="tukwila" DRMJID="95478" EEDuration="3" Group="g_rfu" JobID="95478" JobName="sbatch" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402589" RunPriority="8287" StartPriority="8287" StartTime="1345402589" StatPSDed="2956704.920000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402586" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402589" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95482" EEDuration="4" Group="g_rfu" JobID="95482" JobName="sbatch" MasterHost="gizmod93" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402596" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95483" EEDuration="2" Group="g_rfu" JobID="95483" JobName="sbatch" MasterHost="gizmod93" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402598" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95480" EEDuration="9" Group="g_rfu" JobID="95480" JobName="sbatch" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402591" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478448" Account="feng_z" Class="tukwila" DRMJID="95479" EEDuration="11" Group="g_rfu" JobID="95479" JobName="sbatch" MasterHost="gizmod96" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402600" RunPriority="8287" StartPriority="8287" StartTime="1345402600" StatPSDed="2956682.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402589" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402600" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478437" Account="feng_z" Class="tukwila" DRMJID="95487" EEDuration="4" Group="g_rfu" JobID="95487" JobName="sbatch" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402611" RunPriority="8287" StartPriority="8287" StartTime="1345402611" StatPSDed="2956660.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402607" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402611" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478437" Account="feng_z" Class="tukwila" DRMJID="95484" EEDuration="11" Group="g_rfu" JobID="95484" JobName="sbatch" MasterHost="gizmod93" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402611" RunPriority="8287" StartPriority="8287" StartTime="1345402611" StatPSDed="2956660.800000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402600" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402611" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95489" EEDuration="8" Group="g_rfu" JobID="95489" JobName="sbatch" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402647" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95492" EEDuration="2" Group="g_rfu" JobID="95492" JobName="sbatch" MasterHost="gizmod90" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402653" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95490" EEDuration="6" Group="g_rfu" JobID="95490" JobName="sbatch" MasterHost="gizmod92" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402649" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478393" Account="feng_z" Class="tukwila" DRMJID="95491" EEDuration="4" Group="g_rfu" JobID="95491" JobName="sbatch" MasterHost="gizmod91" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402655" RunPriority="8287" StartPriority="8287" StartTime="1345402655" StatPSDed="2956572.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402651" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402655" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478382" Account="feng_z" Class="tukwila" DRMJID="95493" EEDuration="11" Group="g_rfu" JobID="95493" JobName="sbatch" MasterHost="gizmod90" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402666" RunPriority="8287" StartPriority="8287" StartTime="1345402666" StatPSDed="2956550.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402655" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402666" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="1478382" Account="feng_z" Class="tukwila" DRMJID="95494" EEDuration="8" Group="g_rfu" JobID="95494" JobName="sbatch" MasterHost="gizmod90" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1345402666" RunPriority="8287" StartPriority="8287" StartTime="1345402666" StatPSDed="2956550.880000" StatPSUtl="0.000000" State="Running" SubmissionTime="1345402658" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1345402666" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="6534" Account="matsen_e" Class="tukwila" DRMJID="108928" EEDuration="8" Group="g_csmall" JobID="108928" JobName="guppy" MasterHost="gizmoc13" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346874514" RunPriority="14402" StartPriority="14402" StartTime="1346874514" StatPSDed="6533.210000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346874506" SuspendDuration="0" User="csmall">
+    <par ID="tukwila" RsvStartTime="1346874514" StartPriority="14402">
+    </par>
+    </job>
+    <job AWDuration="4257" Account="hsu_l" Class="any" DRMJID="108935" EEDuration="2" Group="g_jhjeon" JobID="108935" JobName="bash" MasterHost="gizmod57" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346876791" RunPriority="6981" StartPriority="6981" StartTime="1346876791" StatPSDed="51079.440000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346876789" SuspendDuration="0" User="jhjeon">
+    <par ID="campus" RsvStartTime="1346876791" StartPriority="6981">
+    </par>
+    <par ID="tukwila" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="4114" Account="hsu_l" Class="any" DRMJID="108936" EEDuration="8" Group="g_jhjeon" JobID="108936" JobName="bash" MasterHost="gizmod56" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346876934" RunPriority="6981" StartPriority="6981" StartTime="1346876934" StatPSDed="49363.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346876926" SuspendDuration="0" User="jhjeon">
+    <par ID="campus" RsvStartTime="1346876934" StartPriority="6981">
+    </par>
+    <par ID="tukwila" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="3982" Account="hsu_l" Class="any" DRMJID="108937" EEDuration="10" Group="g_jhjeon" JobID="108937" JobName="bash" MasterHost="gizmod58" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346877066" RunPriority="6981" StartPriority="6981" StartTime="1346877066" StatPSDed="47779.440000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346877056" SuspendDuration="0" User="jhjeon">
+    <par ID="campus" RsvStartTime="1346877066" StartPriority="6981">
+    </par>
+    <par ID="tukwila" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="7492" Account="moens_c" Class="any" DRMJID="108925" EEDuration="1" Group="g_amiller" JobID="108925" JobName="tophat_apple_wtALL.slurm" MasterHost="gizmod4" PAL="campus" ReqAWDuration="262800" ReqProcs="1" RsvStartTime="1346873556" RunPriority="14977" StartPriority="14977" StartTime="1346873556" StatPSDed="7490.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873555" SuspendDuration="0" User="amiller">
+    <par ID="campus" RsvStartTime="1346873556" StartPriority="14977">
+    </par>
+    <par ID="tukwila" StartPriority="14977">
+    </par>
+    </job>
+    <job AWDuration="3861" Account="hsu_l" Class="any" DRMJID="108940" EEDuration="1" Group="g_jhjeon" JobID="108940" JobName="bash" MasterHost="gizmod3" PAL="campus" ReqAWDuration="259200" ReqNodes="1" ReqProcs="12" RsvStartTime="1346877187" RunPriority="6981" StartPriority="6981" StartTime="1346877187" StatPSDed="46327.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346877186" SuspendDuration="0" User="jhjeon">
+    <par ID="campus" RsvStartTime="1346877187" StartPriority="6981">
+    </par>
+    <par ID="tukwila" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="1375" Account="noaccount" Class="tukwila" DRMJID="108994" EEDuration="11" Group="g_syin2" JobID="108994" JobName="R" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="259200" ReqProcs="1" RsvStartTime="1346879673" RunPriority="11614" StartPriority="11614" StartTime="1346879673" StatPSDed="1374.870000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346879662" SuspendDuration="0" User="syin2">
+    <par ID="tukwila" RsvStartTime="1346879673" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="103948" Account="kooperberg_c" Class="campus" DRMJID="108598" EEDuration="3" Group="g_ylin2" JobID="108598" JobName="sbatch" MasterHost="gizmod24" PAL="campus" ReqAWDuration="518400" ReqProcs="100" RsvStartTime="1346777100" RunPriority="1" StartPriority="1" StartTime="1346777100" StatPSDed="10392782.000000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346777097" SuspendDuration="0" User="ylin2">
+    <par ID="campus" RsvStartTime="1346777100" StartPriority="1">
+    </par>
+    </job>
+    <job AWDuration="102650" Account="kurland_b" Class="tukwila" DRMJID="108604" EEDuration="9" Group="g_xchai" JobID="108604" JobName="grabfullnode" MasterHost="gizmod84" PAL="tukwila" ReqAWDuration="518400" ReqNodes="1" ReqProcs="12" RsvStartTime="1346778398" RunPriority="13648" StartPriority="13648" StartTime="1346778398" StatPSDed="1231562.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346778389" SuspendDuration="0" User="xchai">
+    <par ID="tukwila" RsvStartTime="1346778398" StartPriority="13648">
+    </par>
+    </job>
+    <job AWDuration="451206" Account="noaccount" Class="tukwila" DRMJID="106988" EEDuration="5" Group="g_nclegg" JobID="106988" JobName="grabnode" MasterHost="gizmod89" PAL="tukwila" ReqAWDuration="1036800" ReqNodes="1" ReqProcs="6" RsvStartTime="1346429842" RunPriority="11614" StartPriority="11614" StartTime="1346429842" StatPSDed="2707100.460000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429837" SuspendDuration="0" User="nclegg">
+    <par ID="tukwila" RsvStartTime="1346429842" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="611631" Account="tapscott_s" Class="tukwila" DRMJID="105513" EEDuration="5" Group="haldaemon" JobID="105513" JobName="grabquarternode" MasterHost="gizmod83" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="3" RsvStartTime="1346269417" RunPriority="14662" StartPriority="14662" StartTime="1346269417" StatPSDed="1834849.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346269412" SuspendDuration="0" User="jayoung">
+    <par ID="tukwila" RsvStartTime="1346269417" StartPriority="14662">
+    </par>
+    </job>
+    <job AWDuration="1746656" Account="luebeck_g" Class="tukwila" DRMJID="94573" EEDuration="2" Group="g_hazelton" JobID="94573" JobName="grabfullnode" MasterHost="gizmod99" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="12" RsvStartTime="1345134392" RunPriority="12297" StartPriority="12297" StartTime="1345134392" StatPSDed="20958463.679999" StatPSUtl="0.000000" State="Running" SubmissionTime="1345134249" SuspendDuration="0" User="hazelton">
+    <par ID="tukwila" RsvStartTime="1345134392" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="172888" Account="hsu_l" Class="tukwila" DRMJID="108460" EEDuration="7" Group="g_jhjeon" JobID="108460" JobName="grabcpu" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708160" RunPriority="6981" StartPriority="6981" StartTime="1346708160" StatPSDed="172879.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708153" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708160" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172866" Account="hsu_l" Class="tukwila" DRMJID="108461" EEDuration="3" Group="g_jhjeon" JobID="108461" JobName="grabcpu" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708182" RunPriority="6981" StartPriority="6981" StartTime="1346708182" StatPSDed="172857.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708179" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708182" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172844" Account="hsu_l" Class="tukwila" DRMJID="108462" EEDuration="9" Group="g_jhjeon" JobID="108462" JobName="grabcpu" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708204" RunPriority="6981" StartPriority="6981" StartTime="1346708204" StatPSDed="172835.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708195" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708204" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172822" Account="hsu_l" Class="tukwila" DRMJID="108463" EEDuration="7" Group="g_jhjeon" JobID="108463" JobName="grabcpu" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708226" RunPriority="6981" StartPriority="6981" StartTime="1346708226" StatPSDed="172813.020000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708219" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708226" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172800" Account="hsu_l" Class="tukwila" DRMJID="108464" EEDuration="2" Group="g_jhjeon" JobID="108464" JobName="grabcpu" MasterHost="gizmod89" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708248" RunPriority="6981" StartPriority="6981" StartTime="1346708248" StatPSDed="172791.110000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708246" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708248" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172778" Account="hsu_l" Class="tukwila" DRMJID="108465" EEDuration="4" Group="g_jhjeon" JobID="108465" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708270" RunPriority="6981" StartPriority="6981" StartTime="1346708270" StatPSDed="172769.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708266" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708270" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172756" Account="hsu_l" Class="tukwila" DRMJID="108466" EEDuration="4" Group="g_jhjeon" JobID="108466" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708292" RunPriority="6981" StartPriority="6981" StartTime="1346708292" StatPSDed="172747.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708288" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708292" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172734" Account="hsu_l" Class="tukwila" DRMJID="108467" EEDuration="2" Group="g_jhjeon" JobID="108467" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708314" RunPriority="6981" StartPriority="6981" StartTime="1346708314" StatPSDed="172725.140000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708312" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708314" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172701" Account="hsu_l" Class="tukwila" DRMJID="108468" EEDuration="11" Group="g_jhjeon" JobID="108468" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708347" RunPriority="6981" StartPriority="6981" StartTime="1346708347" StatPSDed="172692.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708336" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708347" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172690" Account="hsu_l" Class="tukwila" DRMJID="108469" EEDuration="1" Group="g_jhjeon" JobID="108469" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708358" RunPriority="6981" StartPriority="6981" StartTime="1346708358" StatPSDed="172681.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708357" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708358" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172635" Account="hsu_l" Class="tukwila" DRMJID="108470" EEDuration="10" Group="g_jhjeon" JobID="108470" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708413" RunPriority="6981" StartPriority="6981" StartTime="1346708413" StatPSDed="172626.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708403" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708413" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172613" Account="hsu_l" Class="tukwila" DRMJID="108471" EEDuration="3" Group="g_jhjeon" JobID="108471" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708435" RunPriority="6981" StartPriority="6981" StartTime="1346708435" StatPSDed="172604.140000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708432" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708435" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172591" Account="hsu_l" Class="tukwila" DRMJID="108472" EEDuration="2" Group="g_jhjeon" JobID="108472" JobName="grabcpu" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708457" RunPriority="6981" StartPriority="6981" StartTime="1346708457" StatPSDed="172582.160000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708455" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708457" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172569" Account="hsu_l" Class="tukwila" DRMJID="108473" EEDuration="4" Group="g_jhjeon" JobID="108473" JobName="grabcpu" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708479" RunPriority="6981" StartPriority="6981" StartTime="1346708479" StatPSDed="172560.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708475" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708479" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172503" Account="hsu_l" Class="tukwila" DRMJID="108474" EEDuration="4" Group="g_jhjeon" JobID="108474" JobName="grabcpu" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708545" RunPriority="6981" StartPriority="6981" StartTime="1346708545" StatPSDed="172494.120000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708541" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708545" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172481" Account="hsu_l" Class="tukwila" DRMJID="108475" EEDuration="7" Group="g_jhjeon" JobID="108475" JobName="grabcpu" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708567" RunPriority="6981" StartPriority="6981" StartTime="1346708567" StatPSDed="172471.970000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708560" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708567" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172459" Account="hsu_l" Class="tukwila" DRMJID="108476" EEDuration="3" Group="g_jhjeon" JobID="108476" JobName="grabcpu" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708589" RunPriority="6981" StartPriority="6981" StartTime="1346708589" StatPSDed="172450.170000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708586" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708589" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="172426" Account="hsu_l" Class="tukwila" DRMJID="108477" EEDuration="5" Group="g_jhjeon" JobID="108477" JobName="grabcpu" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="1209600" ReqNodes="1" ReqProcs="1" RsvStartTime="1346708622" RunPriority="6981" StartPriority="6981" StartTime="1346708622" StatPSDed="172417.150000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346708617" SuspendDuration="0" User="jhjeon">
+    <par ID="tukwila" RsvStartTime="1346708622" StartPriority="6981">
+    </par>
+    </job>
+    <job AWDuration="619590" Account="noaccount" Class="any" DRMJID="105181" EEDuration="3" Group="g_rmeza" JobID="105181" JobName="bash" MasterHost="gizmod54" PAL="campus" ReqAWDuration="1728000" ReqNodes="1" ReqProcs="12" RsvStartTime="1346261458" RunPriority="11614" StartPriority="11614" StartTime="1346261458" StatPSDed="7434904.440001" StatPSUtl="0.000000" State="Running" SubmissionTime="1346261455" SuspendDuration="0" User="rmeza">
+    <par ID="campus" RsvStartTime="1346261458" StartPriority="11614">
+    </par>
+    <par ID="tukwila" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="3311" Account="robins_h" Class="tukwila" DRMJID="108970" EEDuration="11" Group="g_rmukherj" JobID="108970" JobName="grabnode" MasterHost="gizmod70" PAL="tukwila" ReqAWDuration="1296000" ReqNodes="1" ReqProcs="6" RsvStartTime="1346877737" RunPriority="14932" StartPriority="14932" StartTime="1346877737" StatPSDed="19864.080000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346877726" SuspendDuration="0" User="rmukherj">
+    <par ID="tukwila" RsvStartTime="1346877737" StartPriority="14932">
+    </par>
+    </job>
+    <job AWDuration="250244" Account="feng_z" Class="tukwila" DRMJID="108382" EEDuration="8" Group="g_rfu" JobID="108382" JobName="sbatch" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346630804" RunPriority="8287" StartPriority="8287" StartTime="1346630804" StatPSDed="500455.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630796" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346630804" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="250056" Account="feng_z" Class="tukwila" DRMJID="108383" EEDuration="5" Group="g_rfu" JobID="108383" JobName="sbatch" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346630992" RunPriority="8287" StartPriority="8287" StartTime="1346630992" StatPSDed="500078.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630987" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346630992" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="250034" Account="feng_z" Class="tukwila" DRMJID="108385" EEDuration="15" Group="g_rfu" JobID="108385" JobName="sbatch" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631014" RunPriority="8287" StartPriority="8287" StartTime="1346631014" StatPSDed="500034.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630999" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631014" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="250034" Account="feng_z" Class="tukwila" DRMJID="108384" EEDuration="17" Group="g_rfu" JobID="108384" JobName="sbatch" MasterHost="gizmod100" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631014" RunPriority="8287" StartPriority="8287" StartTime="1346631014" StatPSDed="500034.320000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346630997" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631014" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="250023" Account="feng_z" Class="tukwila" DRMJID="108389" EEDuration="3" Group="g_rfu" JobID="108389" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631025" RunPriority="8287" StartPriority="8287" StartTime="1346631025" StatPSDed="500013.140000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631022" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631025" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="249979" Account="feng_z" Class="tukwila" DRMJID="108391" EEDuration="3" Group="g_rfu" JobID="108391" JobName="sbatch" MasterHost="gizmod88" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631069" RunPriority="8287" StartPriority="8287" StartTime="1346631069" StatPSDed="499925.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631066" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631069" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108395" EEDuration="3" Group="g_rfu" JobID="108395" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631077" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108393" EEDuration="9" Group="g_rfu" JobID="108393" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631071" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108392" EEDuration="11" Group="g_rfu" JobID="108392" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631069" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="249968" Account="feng_z" Class="tukwila" DRMJID="108394" EEDuration="6" Group="g_rfu" JobID="108394" JobName="sbatch" MasterHost="gizmod86" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631080" RunPriority="8287" StartPriority="8287" StartTime="1346631080" StatPSDed="499903.200000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631074" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631080" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="249759" Account="feng_z" Class="tukwila" DRMJID="108397" EEDuration="8" Group="g_rfu" JobID="108397" JobName="sbatch" MasterHost="gizmod79" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631289" RunPriority="8287" StartPriority="8287" StartTime="1346631289" StatPSDed="499485.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631281" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631289" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="249759" Account="feng_z" Class="tukwila" DRMJID="108398" EEDuration="6" Group="g_rfu" JobID="108398" JobName="sbatch" MasterHost="gizmod79" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346631289" RunPriority="8287" StartPriority="8287" StartTime="1346631289" StatPSDed="499485.220000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631283" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346631289" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="242228" Account="feng_z" Class="tukwila" DRMJID="108399" EEDuration="2" Group="g_rfu" JobID="108399" JobName="sbatch" MasterHost="gizmod82" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346638820" RunPriority="8287" StartPriority="8287" StartTime="1346638820" StatPSDed="484426.040000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631309" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346638820" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="198072" Account="feng_z" Class="tukwila" DRMJID="108400" EEDuration="11" Group="g_rfu" JobID="108400" JobName="sbatch" MasterHost="gizmod101" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346682976" RunPriority="8287" StartPriority="8287" StartTime="1346682976" StatPSDed="396120.940000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631311" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346682976" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="152344" Account="feng_z" Class="tukwila" DRMJID="108401" EEDuration="10" Group="g_rfu" JobID="108401" JobName="sbatch" MasterHost="gizmod83" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346728704" RunPriority="8287" StartPriority="8287" StartTime="1346728704" StatPSDed="304662.740000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631312" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346728704" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="104995" Account="feng_z" Class="tukwila" DRMJID="108402" EEDuration="7" Group="g_rfu" JobID="108402" JobName="sbatch" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346776053" RunPriority="8287" StartPriority="8287" StartTime="1346776053" StatPSDed="209949.260000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631315" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346776053" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="45404" Account="feng_z" Class="tukwila" DRMJID="108403" EEDuration="5" Group="g_rfu" JobID="108403" JobName="sbatch" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="1728000" ReqProcs="2" RsvStartTime="1346835644" RunPriority="8287" StartPriority="8287" StartTime="1346835644" StatPSDed="90792.580000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346631317" SuspendDuration="0" User="rfu">
+    <par ID="tukwila" RsvStartTime="1346835644" StartPriority="8287">
+    </par>
+    </job>
+    <job AWDuration="451316" Account="luebeck_g" Class="any" DRMJID="106981" EEDuration="2" Group="g_hazelton" JobID="106981" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429732" RunPriority="12297" StartPriority="12297" StartTime="1346429732" StatPSDed="451293.450000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429730" SuspendDuration="0" User="hazelton">
+    <par ID="campus" RsvStartTime="1346429732" StartPriority="12297">
+    </par>
+    <par ID="tukwila" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="451283" Account="luebeck_g" Class="any" DRMJID="106982" EEDuration="5" Group="g_hazelton" JobID="106982" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429765" RunPriority="12297" StartPriority="12297" StartTime="1346429765" StatPSDed="451260.420000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429760" SuspendDuration="0" User="hazelton">
+    <par ID="campus" RsvStartTime="1346429765" StartPriority="12297">
+    </par>
+    <par ID="tukwila" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="451272" Account="luebeck_g" Class="any" DRMJID="106983" EEDuration="4" Group="g_hazelton" JobID="106983" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429776" RunPriority="12297" StartPriority="12297" StartTime="1346429776" StatPSDed="451249.440000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429772" SuspendDuration="0" User="hazelton">
+    <par ID="campus" RsvStartTime="1346429776" StartPriority="12297">
+    </par>
+    <par ID="tukwila" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="451261" Account="luebeck_g" Class="any" DRMJID="106985" EEDuration="8" Group="g_hazelton" JobID="106985" JobName="bash" MasterHost="gizmod55" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429787" RunPriority="12297" StartPriority="12297" StartTime="1346429787" StatPSDed="451238.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429779" SuspendDuration="0" User="hazelton">
+    <par ID="campus" RsvStartTime="1346429787" StartPriority="12297">
+    </par>
+    <par ID="tukwila" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="451250" Account="luebeck_g" Class="any" DRMJID="106986" EEDuration="8" Group="g_hazelton" JobID="106986" JobName="bash" MasterHost="gizmod11" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429798" RunPriority="12297" StartPriority="12297" StartTime="1346429798" StatPSDed="451227.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429790" SuspendDuration="0" User="hazelton">
+    <par ID="campus" RsvStartTime="1346429798" StartPriority="12297">
+    </par>
+    <par ID="tukwila" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="451239" Account="luebeck_g" Class="any" DRMJID="106987" EEDuration="7" Group="g_hazelton" JobID="106987" JobName="bash" MasterHost="gizmod11" PAL="campus" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346429809" RunPriority="12297" StartPriority="12297" StartTime="1346429809" StatPSDed="451216.430000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346429802" SuspendDuration="0" User="hazelton">
+    <par ID="campus" RsvStartTime="1346429809" StartPriority="12297">
+    </par>
+    <par ID="tukwila" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="446979" Account="luebeck_g" Class="tukwila" DRMJID="107017" EEDuration="1" Group="g_hazelton" JobID="107017" JobName="grabhalfnode" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="2592000" ReqNodes="1" ReqProcs="6" RsvStartTime="1346434069" RunPriority="12297" StartPriority="12297" StartTime="1346434069" StatPSDed="2681739.300000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346434068" SuspendDuration="0" User="hazelton">
+    <par ID="tukwila" RsvStartTime="1346434069" StartPriority="12297">
+    </par>
+    </job>
+    <job AWDuration="9581" Account="noaccount" Class="tukwila" DRMJID="108909" EEDuration="2" Group="g_ckang2" JobID="108909" JobName="RLD1_19" MasterHost="gizmod95" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346871467" RunPriority="11614" StartPriority="11614" StartTime="1346871467" StatPSDed="9579.600000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346871465" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346871467" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="9307" Account="noaccount" Class="tukwila" DRMJID="108911" EEDuration="8" Group="g_ckang2" JobID="108911" JobName="RLD2_9" MasterHost="gizmod72" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346871741" RunPriority="11614" StartPriority="11614" StartTime="1346871741" StatPSDed="9305.560000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346871733" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346871741" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7580" Account="noaccount" Class="tukwila" DRMJID="108917" EEDuration="8" Group="g_ckang2" JobID="108917" JobName="kp_c11_23" MasterHost="gizmod85" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873468" RunPriority="11614" StartPriority="11614" StartTime="1346873468" StatPSDed="7578.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873460" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873468" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108920" EEDuration="4" Group="g_ckang2" JobID="108920" JobName="kp_c12_7" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873475" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108921" EEDuration="3" Group="g_ckang2" JobID="108921" JobName="kp_c12_8" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873476" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108919" EEDuration="5" Group="g_ckang2" JobID="108919" JobName="kp_c12_6" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873474" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7569" Account="noaccount" Class="tukwila" DRMJID="108918" EEDuration="8" Group="g_ckang2" JobID="108918" JobName="kp_c12_5" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873479" RunPriority="11614" StartPriority="11614" StartTime="1346873479" StatPSDed="7567.990000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873471" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873479" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7558" Account="noaccount" Class="tukwila" DRMJID="108922" EEDuration="8" Group="g_ckang2" JobID="108922" JobName="kp_c12_10" MasterHost="gizmod81" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873490" RunPriority="11614" StartPriority="11614" StartTime="1346873490" StatPSDed="7556.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873482" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873490" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7558" Account="noaccount" Class="tukwila" DRMJID="108924" EEDuration="6" Group="g_ckang2" JobID="108924" JobName="kp_c12_12" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873490" RunPriority="11614" StartPriority="11614" StartTime="1346873490" StatPSDed="7556.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873484" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873490" StartPriority="11614">
+    </par>
+    </job>
+    <job AWDuration="7558" Account="noaccount" Class="tukwila" DRMJID="108923" EEDuration="7" Group="g_ckang2" JobID="108923" JobName="kp_c12_11" MasterHost="gizmod75" PAL="tukwila" ReqAWDuration="2592000" ReqProcs="1" RsvStartTime="1346873490" RunPriority="11614" StartPriority="11614" StartTime="1346873490" StatPSDed="7556.980000" StatPSUtl="0.000000" State="Running" SubmissionTime="1346873483" SuspendDuration="0" User="ckang2">
+    <par ID="tukwila" RsvStartTime="1346873490" StartPriority="11614">
+    </par>
+    </job>
+    </queue>
+    </Data>
