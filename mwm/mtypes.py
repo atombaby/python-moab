@@ -25,7 +25,25 @@ def _process( self, data={}, attrs=[] ):
             try:
                 vars(self)[d] = data[d]
             except KeyError:
-                vars(self)[t] = ""
+                vars(self)[d] = ""
+
+        elif t == 'nodelist':
+            # (node, cores on node)
+            vars(self)[d] = []
+            try:
+                elem = data[d].split(',')
+                for alloc in elem:
+                    alloc = tuple( alloc.split( ':' ) )
+                    vars(self)[d].append( alloc )
+            except KeyError:
+                vars(self)[d] = []
+
+        elif t == 'list':
+            vars(self)[d] = []
+            try:
+                vars(self)[d] = data[d].split(',')
+            except KeyError:
+                vars(self)[d] = []
 
 class Job: 
     def __init__(self, rawdata={}):
@@ -53,7 +71,7 @@ class Job:
             ( 'StatPSUtl', 'float' ),
             ( 'StatMSUtl', 'float' ),
             ( 'Account', 'string' ),
-            ( 'AllocNodeList', 'string' ),
+            ( 'AllocNodeList', 'nodelist' ),
             ( 'AllocPartition', 'string' ),
             ( 'BlockReason', 'string' ),
             ( 'Class', 'string' ),
@@ -84,6 +102,34 @@ class Job:
 
 class Queue:
     pass
+
+class Reservation:
+    def __init__(self, rawdata={}):
+        attributes=[
+            ( 'AllocNodeCount',  'int' ),
+            ( 'AllocNodeList',   'list' ),
+            ( 'AllocProcCount',  'int' ),
+            ( 'AllocTaskCount',  'int' ),
+            ( 'LastChargeTime',  'int' ),
+            ( 'Name',            'string' ),
+            ( 'Partition',       'string' ),
+            ( 'Priority',        'int' ),
+            ( 'Resources',       'string' ),
+            ( 'RsvGroup',        'string' ),
+            ( 'StatCAPS',        'float' ),
+            ( 'StatCIPS',        'float' ),
+            ( 'StatTAPS',        'float' ),
+            ( 'StatTIPS',        'float' ),
+            ( 'SubType',         'string' ),
+            ( 'Type',            'string' ),
+            ( 'cost',            'float' ),
+            ( 'ctime',           'int' ),
+            ( 'duration',        'int' ),
+            ( 'endtime',         'int' ),
+            ( 'flags',           'list' ),
+            ( 'starttime',       'int' ),
+        ]
+        _process( self, rawdata, attributes)
 
 
 class User:
