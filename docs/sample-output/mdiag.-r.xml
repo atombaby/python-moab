@@ -1,0 +1,3045 @@
+
+
+<Data>
+<rsv
+AllocNodeCount="1"
+AllocNodeList="gizmod100"
+AllocProcCount="3"
+AllocTaskCount="3"
+LastChargeTime="0"
+Name="108818"
+Partition="tukwila"
+Priority="0"
+Resources="PROCS=1"
+RsvGroup="108818"
+StatCAPS="0.00"
+StatCIPS="0.00"
+StatTAPS="0.00"
+StatTIPS="0.00"
+SubType="JobReservation"
+Type="Job"
+cost="0.000000"
+ctime="1347315836"
+duration="457193"
+endtime="1347315837"
+flags="ISACTIVE"
+starttime="1346858644">
+<ACL aff="neutral" cmp="%=" name="108818" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108818" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pdanaher" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pdanaher" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="wang_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="3">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="777600">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod85" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="108874" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="108874" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="446911" endtime="1347315837" flags="ISACTIVE" starttime="1346868926">
+<ACL aff="neutral" cmp="%=" name="108874" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108874" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ckang2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ckang2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="noaccount" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod83" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="108865" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="108865" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="367926" endtime="1347315837" flags="ISACTIVE" starttime="1346947911">
+<ACL aff="neutral" cmp="%=" name="108865" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108865" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ckang2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ckang2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="noaccount" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod83" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="108866" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="108866" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="367926" endtime="1347315837" flags="ISACTIVE" starttime="1346947911">
+<ACL aff="neutral" cmp="%=" name="108866" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108866" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ckang2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ckang2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="noaccount" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod85" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="108871" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="108871" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="446944" endtime="1347315837" flags="ISACTIVE" starttime="1346868893">
+<ACL aff="neutral" cmp="%=" name="108871" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108871" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ckang2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ckang2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="noaccount" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="11" AllocNodeList="gizmod4,gizmod5,gizmod8,gizmod9,gizmod10,gizmod18,gizmod19,gizmod20,gizmod22,gizmod23,gizmod24" AllocProcCount="100" AllocTaskCount="100" LastChargeTime="0" Name="108598" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="108598" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="538737" endtime="1347315837" flags="ISACTIVE" starttime="1346777100">
+<ACL aff="neutral" cmp="%=" name="108598" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108598" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ylin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ylin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="campus" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="518400">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="100">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="51840000">
+</CL>
+<CL aff="positive" cmp="%=" name="FSVIOLATION" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod92" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="95489" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="95489" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1913182" endtime="1347315837" flags="ISACTIVE" starttime="1345402655">
+<ACL aff="neutral" cmp="%=" name="95489" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="95489" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod96" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="95479" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="95479" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1913237" endtime="1347315837" flags="ISACTIVE" starttime="1345402600">
+<ACL aff="neutral" cmp="%=" name="95479" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="95479" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="3" AllocNodeList="gizmod102,gizmod103,gizmod104" AllocProcCount="36" AllocTaskCount="3" HostExp="x:gizmod[0-9]$,gizmod[1-4][0-9],gizmod[6-9][0-9]" LastChargeTime="1347314407" Name="iactive.213" Partition="tukwila" Priority="0" ReqTaskCount="3" Resources="PROCS=[ALL]" RsvGroup="iactive" RsvParent="iactive" StatCAPS="17013.48" StatCIPS="34026.96" StatTAPS="350979.08" StatTIPS="686250.76" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1347174007" duration="43200" endtime="1347328800" flags="STANDINGRSV,ISACTIVE" starttime="1347285600">
+<ACL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</ACL>
+<CL aff="neutral" cmp="%=" name="iactive.213" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="reservation for interactive jobs" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod21" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110598" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110598" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381898" flags="ISACTIVE" starttime="1347295498">
+<ACL aff="neutral" cmp="%=" name="110598" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110598" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod11,gizmod38" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110599" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110599" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381898" flags="ISACTIVE" starttime="1347295498">
+<ACL aff="neutral" cmp="%=" name="110599" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110599" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod51" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110597" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110597" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381898" flags="ISACTIVE" starttime="1347295498">
+<ACL aff="neutral" cmp="%=" name="110597" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110597" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod37,gizmod38" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110600" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110600" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381898" flags="ISACTIVE" starttime="1347295498">
+<ACL aff="neutral" cmp="%=" name="110600" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110600" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod52" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110596" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110596" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381898" flags="ISACTIVE" starttime="1347295498">
+<ACL aff="neutral" cmp="%=" name="110596" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110596" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod32,gizmod33" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110605" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110605" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381909" flags="ISACTIVE" starttime="1347295509">
+<ACL aff="neutral" cmp="%=" name="110605" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110605" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod36,gizmod37" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110601" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110601" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381909" flags="ISACTIVE" starttime="1347295509">
+<ACL aff="neutral" cmp="%=" name="110601" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110601" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod33,gizmod34" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110604" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110604" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381909" flags="ISACTIVE" starttime="1347295509">
+<ACL aff="neutral" cmp="%=" name="110604" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110604" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod35,gizmod36" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110602" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110602" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381909" flags="ISACTIVE" starttime="1347295509">
+<ACL aff="neutral" cmp="%=" name="110602" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110602" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod34,gizmod35" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110603" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110603" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381909" flags="ISACTIVE" starttime="1347295509">
+<ACL aff="neutral" cmp="%=" name="110603" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110603" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod30,gizmod31" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110607" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110607" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381920" flags="ISACTIVE" starttime="1347295520">
+<ACL aff="neutral" cmp="%=" name="110607" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110607" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod24,gizmod30" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110608" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110608" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381920" flags="ISACTIVE" starttime="1347295520">
+<ACL aff="neutral" cmp="%=" name="110608" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110608" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod31,gizmod32" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110606" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110606" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381920" flags="ISACTIVE" starttime="1347295520">
+<ACL aff="neutral" cmp="%=" name="110606" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110606" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="3" AllocNodeList="gizmod13,gizmod18,gizmod23" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110610" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110610" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381920" flags="ISACTIVE" starttime="1347295520">
+<ACL aff="neutral" cmp="%=" name="110610" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110610" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod23,gizmod24" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110609" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110609" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381920" flags="ISACTIVE" starttime="1347295520">
+<ACL aff="neutral" cmp="%=" name="110609" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110609" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod112" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110616" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110616" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381931" flags="ISACTIVE" starttime="1347295531">
+<ACL aff="neutral" cmp="%=" name="110616" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110616" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod114" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110615" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110615" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381931" flags="ISACTIVE" starttime="1347295531">
+<ACL aff="neutral" cmp="%=" name="110615" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110615" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod105" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110612" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110612" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381931" flags="ISACTIVE" starttime="1347295531">
+<ACL aff="neutral" cmp="%=" name="110612" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110612" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod115" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110614" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110614" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381931" flags="ISACTIVE" starttime="1347295531">
+<ACL aff="neutral" cmp="%=" name="110614" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110614" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod107" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110611" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110611" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381931" flags="ISACTIVE" starttime="1347295531">
+<ACL aff="neutral" cmp="%=" name="110611" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110611" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod104" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110613" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110613" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381931" flags="ISACTIVE" starttime="1347295531">
+<ACL aff="neutral" cmp="%=" name="110613" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110613" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="9931">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod110" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110618" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110618" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381942" flags="ISACTIVE" starttime="1347295542">
+<ACL aff="neutral" cmp="%=" name="110618" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110618" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod111" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110617" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110617" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381942" flags="ISACTIVE" starttime="1347295542">
+<ACL aff="neutral" cmp="%=" name="110617" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110617" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod108" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110620" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110620" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381942" flags="ISACTIVE" starttime="1347295542">
+<ACL aff="neutral" cmp="%=" name="110620" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110620" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod109" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110619" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110619" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381942" flags="ISACTIVE" starttime="1347295542">
+<ACL aff="neutral" cmp="%=" name="110619" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110619" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod95" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110621" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110621" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381942" flags="ISACTIVE" starttime="1347295542">
+<ACL aff="neutral" cmp="%=" name="110621" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110621" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod94,gizmod96" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110626" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110626" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381953" flags="ISACTIVE" starttime="1347295553">
+<ACL aff="neutral" cmp="%=" name="110626" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110626" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod71,gizmod72" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110623" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110623" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381953" flags="ISACTIVE" starttime="1347295553">
+<ACL aff="neutral" cmp="%=" name="110623" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110623" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="3" AllocNodeList="gizmod96,gizmod100,gizmod101" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110625" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110625" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381953" flags="ISACTIVE" starttime="1347295553">
+<ACL aff="neutral" cmp="%=" name="110625" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110625" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod73,gizmod83" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110622" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110622" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381953" flags="ISACTIVE" starttime="1347295553">
+<ACL aff="neutral" cmp="%=" name="110622" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110622" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod71,gizmod101" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110624" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110624" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381953" flags="ISACTIVE" starttime="1347295553">
+<ACL aff="neutral" cmp="%=" name="110624" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110624" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod92,gizmod93" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110628" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110628" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381964" flags="ISACTIVE" starttime="1347295564">
+<ACL aff="neutral" cmp="%=" name="110628" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110628" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod93,gizmod94" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110627" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110627" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347381964" flags="ISACTIVE" starttime="1347295564">
+<ACL aff="neutral" cmp="%=" name="110627" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110627" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="pbradley" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_pbradley" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod15" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110969" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110969" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347391905" flags="ISACTIVE" starttime="1347305505">
+<ACL aff="neutral" cmp="%=" name="110969" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110969" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="solexa" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_solexa" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="sr_genomics" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="campus" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod67" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="111215" Partition="tukwila" Priority="0" Resources="PROCS=12" RsvGroup="111215" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347398838" flags="ISACTIVE" starttime="1347312438">
+<ACL aff="neutral" cmp="%=" name="111215" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111215" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ylin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ylin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod65" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="111216" Partition="tukwila" Priority="0" Resources="PROCS=12" RsvGroup="111216" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347398838" flags="ISACTIVE" starttime="1347312438">
+<ACL aff="neutral" cmp="%=" name="111216" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111216" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ylin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ylin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod68" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="111214" Partition="tukwila" Priority="0" Resources="PROCS=12" RsvGroup="111214" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347398838" flags="ISACTIVE" starttime="1347312438">
+<ACL aff="neutral" cmp="%=" name="111214" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111214" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ylin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ylin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod64" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="111226" Partition="tukwila" Priority="0" Resources="PROCS=12" RsvGroup="111226" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347400862" flags="ISACTIVE" starttime="1347314462">
+<ACL aff="neutral" cmp="%=" name="111226" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111226" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ylin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ylin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="1036800">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod76" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="111235" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="111235" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="86400" endtime="1347401840" flags="ISACTIVE" starttime="1347315440">
+<ACL aff="neutral" cmp="%=" name="111235" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111235" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jorja" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_henikoff" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="henikoff_s" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="86400">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="86400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="3" AllocNodeList="gizmod102,gizmod103,gizmod104" AllocProcCount="36" AllocTaskCount="3" HostExp="x:gizmod[0-9]$,gizmod[1-4][0-9],gizmod[6-9][0-9]" LastChargeTime="0" Name="iactive.214" Partition="tukwila" Priority="0" ReqTaskCount="3" Resources="PROCS=[ALL]" RsvGroup="iactive" RsvParent="iactive" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1347260407" duration="43200" endtime="1347415200" flags="STANDINGRSV" starttime="1347372000">
+<ACL aff="neutral" cmp="%=" name="iactive.214" type="RSV">
+</ACL>
+<ACL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</ACL>
+<CL aff="neutral" cmp="%=" name="iactive.214" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="reservation for interactive jobs" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod82" AllocProcCount="6" AllocTaskCount="6" LastChargeTime="0" Name="110250" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110250" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="432000" endtime="1347481973" flags="ISACTIVE" starttime="1347049973">
+<ACL aff="neutral" cmp="%=" name="110250" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110250" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="xchai" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_xchai" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kurland_b" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="6">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="432000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod29" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="110566" Partition="campus" Priority="0" Resources="PROCS=12" RsvGroup="110566" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347552266" flags="ISACTIVE" starttime="1347293066">
+<ACL aff="neutral" cmp="%=" name="110566" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110566" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jhjeon" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jhjeon" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="hsu_l" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3110400">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod26" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="110567" Partition="campus" Priority="0" Resources="PROCS=12" RsvGroup="110567" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347552640" flags="ISACTIVE" starttime="1347293440">
+<ACL aff="neutral" cmp="%=" name="110567" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110567" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jhjeon" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jhjeon" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="hsu_l" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3110400">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod25" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="110568" Partition="campus" Priority="0" Resources="PROCS=12" RsvGroup="110568" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347552773" flags="ISACTIVE" starttime="1347293573">
+<ACL aff="neutral" cmp="%=" name="110568" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110568" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jhjeon" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jhjeon" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="hsu_l" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3110400">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod17" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="110569" Partition="campus" Priority="0" Resources="PROCS=12" RsvGroup="110569" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347552927" flags="ISACTIVE" starttime="1347293727">
+<ACL aff="neutral" cmp="%=" name="110569" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110569" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jhjeon" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jhjeon" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="hsu_l" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3110400">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod145" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110570" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110570" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347553521" flags="ISACTIVE" starttime="1347294321">
+<ACL aff="neutral" cmp="%=" name="110570" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110570" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="syin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_syin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="huang_y" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="7" AllocNodeList="gizmod53,gizmod55,gizmod56,gizmod57,gizmod58,gizmod59,gizmod60" AllocProcCount="80" AllocTaskCount="80" LastChargeTime="0" Name="110583" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="110583" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347554346" flags="ISACTIVE" starttime="1347295146">
+<ACL aff="neutral" cmp="%=" name="110583" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110583" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ylin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ylin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="80">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="20736000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod145" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110584" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110584" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347554357" flags="ISACTIVE" starttime="1347295157">
+<ACL aff="neutral" cmp="%=" name="110584" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110584" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="syin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_syin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="huang_y" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="7" AllocNodeList="gizmod81,gizmod82,gizmod84,gizmod85,gizmod86,gizmod88,gizmod89" AllocProcCount="50" AllocTaskCount="50" LastChargeTime="0" Name="110644" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110644" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347557305" flags="ISACTIVE" starttime="1347298105">
+<ACL aff="neutral" cmp="%=" name="110644" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110644" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jhaessle" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jhaessle" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="50">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="12960000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110650" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110650" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347557525" flags="ISACTIVE" starttime="1347298325">
+<ACL aff="neutral" cmp="%=" name="110650" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110650" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110646" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110646" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347557525" flags="ISACTIVE" starttime="1347298325">
+<ACL aff="neutral" cmp="%=" name="110646" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110646" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110648" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110648" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347557525" flags="ISACTIVE" starttime="1347298325">
+<ACL aff="neutral" cmp="%=" name="110648" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110648" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110645" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110645" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347557525" flags="ISACTIVE" starttime="1347298325">
+<ACL aff="neutral" cmp="%=" name="110645" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110645" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110647" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110647" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347557525" flags="ISACTIVE" starttime="1347298325">
+<ACL aff="neutral" cmp="%=" name="110647" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110647" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110649" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110649" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347557525" flags="ISACTIVE" starttime="1347298325">
+<ACL aff="neutral" cmp="%=" name="110649" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110649" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110652" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110652" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347559175" flags="ISACTIVE" starttime="1347299975">
+<ACL aff="neutral" cmp="%=" name="110652" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110652" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110653" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110653" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347559175" flags="ISACTIVE" starttime="1347299975">
+<ACL aff="neutral" cmp="%=" name="110653" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110653" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="110651" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110651" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347559175" flags="ISACTIVE" starttime="1347299975">
+<ACL aff="neutral" cmp="%=" name="110651" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110651" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="6" AllocNodeList="gizmod76,gizmod77,gizmod78,gizmod79,gizmod81,gizmod97" AllocProcCount="50" AllocTaskCount="50" LastChargeTime="0" Name="110816" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110816" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347560255" flags="ISACTIVE" starttime="1347301055">
+<ACL aff="neutral" cmp="%=" name="110816" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110816" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jhaessle" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jhaessle" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="50">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="12960000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="6" AllocNodeList="gizmod69,gizmod70,gizmod74,gizmod75,gizmod76,gizmod79" AllocProcCount="50" AllocTaskCount="50" LastChargeTime="0" Name="110968" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110968" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347562974" flags="ISACTIVE" starttime="1347303774">
+<ACL aff="neutral" cmp="%=" name="110968" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110968" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jhaessle" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jhaessle" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="kooperberg_c" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="50">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="12960000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc12" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="111213" Partition="tukwila" Priority="0" Resources="PROCS=12" RsvGroup="111213" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347571528" flags="ISACTIVE" starttime="1347312328">
+<ACL aff="neutral" cmp="%=" name="111213" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111213" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3110400">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmoc13" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="111225" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="111225" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347572650" flags="ISACTIVE" starttime="1347313450">
+<ACL aff="neutral" cmp="%=" name="111225" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111225" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="cmccoy" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_cmccoy" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod145" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="111237" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="111237" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="259200" endtime="1347574871" flags="ISACTIVE" starttime="1347315671">
+<ACL aff="neutral" cmp="%=" name="111237" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="111237" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="syin2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_syin2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="huang_y" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="259200">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="259200">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod125" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="109713" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="idle" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347288089" duration="302400" endtime="1347590490" starttime="1347288090">
+<ACL aff="neutral" cmp="%=" name="109713" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="109713" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3628800">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="302400">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod99" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="94573" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="94573" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1347726392" flags="ISACTIVE" starttime="1345134392">
+<ACL aff="neutral" cmp="%=" name="94573" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="94573" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="31104000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod124" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110928" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110928" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110928" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110928" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod126" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110927" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110927" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110927" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110927" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod122" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110930" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110930" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110930" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110930" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod127" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110926" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110926" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110926" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110926" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod120" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110932" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110932" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110932" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110932" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod125" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110925" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110925" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110925" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110925" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod123" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110929" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110929" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110929" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110929" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod121" AllocProcCount="12" AllocTaskCount="12" LastChargeTime="0" Name="110931" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="110931" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="604800" endtime="1347908276" flags="ISACTIVE" starttime="1347303476">
+<ACL aff="neutral" cmp="%=" name="110931" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110931" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jramey" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_jramey" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7257600">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="604800">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod54" AllocProcCount="12" AllocTaskCount="1" LastChargeTime="0" Name="105181" Partition="campus" Priority="0" Resources="PROCS=12" RsvGroup="105181" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1347989458" flags="ISACTIVE" starttime="1346261458">
+<ACL aff="neutral" cmp="%=" name="105181" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="105181" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rmeza" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rmeza" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="noaccount" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="12">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="20736000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod70" AllocProcCount="6" AllocTaskCount="6" LastChargeTime="0" Name="108970" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="108970" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1296000" endtime="1348173737" flags="ISACTIVE" starttime="1346877737">
+<ACL aff="neutral" cmp="%=" name="108970" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108970" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rmukherj" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rmukherj" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="robins_h" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1296000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="6">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="7776000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod81" AllocProcCount="3" AllocTaskCount="3" LastChargeTime="0" Name="109920" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="109920" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1209600" endtime="1348186689" flags="ISACTIVE" starttime="1346977089">
+<ACL aff="neutral" cmp="%=" name="109920" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="109920" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="jayoung" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="haldaemon" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="tapscott_s" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="3">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3628800">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1209600">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod100" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108382" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108382" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348358804" flags="ISACTIVE" starttime="1346630804">
+<ACL aff="neutral" cmp="%=" name="108382" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108382" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod100" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108383" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108383" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348358992" flags="ISACTIVE" starttime="1346630992">
+<ACL aff="neutral" cmp="%=" name="108383" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108383" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod88" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108385" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108385" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359014" flags="ISACTIVE" starttime="1346631014">
+<ACL aff="neutral" cmp="%=" name="108385" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108385" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod100" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108384" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108384" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359014" flags="ISACTIVE" starttime="1346631014">
+<ACL aff="neutral" cmp="%=" name="108384" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108384" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod86" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108389" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108389" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359025" flags="ISACTIVE" starttime="1346631025">
+<ACL aff="neutral" cmp="%=" name="108389" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108389" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod88" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108391" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108391" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359069" flags="ISACTIVE" starttime="1346631069">
+<ACL aff="neutral" cmp="%=" name="108391" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108391" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod86" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108395" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108395" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359080" flags="ISACTIVE" starttime="1346631080">
+<ACL aff="neutral" cmp="%=" name="108395" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108395" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod86" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108393" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108393" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359080" flags="ISACTIVE" starttime="1346631080">
+<ACL aff="neutral" cmp="%=" name="108393" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108393" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod86" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108392" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108392" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359080" flags="ISACTIVE" starttime="1346631080">
+<ACL aff="neutral" cmp="%=" name="108392" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108392" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod86" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108394" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108394" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359080" flags="ISACTIVE" starttime="1346631080">
+<ACL aff="neutral" cmp="%=" name="108394" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108394" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod79" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108397" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108397" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359289" flags="ISACTIVE" starttime="1346631289">
+<ACL aff="neutral" cmp="%=" name="108397" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108397" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod79" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108398" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108398" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348359289" flags="ISACTIVE" starttime="1346631289">
+<ACL aff="neutral" cmp="%=" name="108398" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108398" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod82" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108399" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108399" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348366820" flags="ISACTIVE" starttime="1346638820">
+<ACL aff="neutral" cmp="%=" name="108399" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108399" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod101" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108400" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108400" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348410976" flags="ISACTIVE" starttime="1346682976">
+<ACL aff="neutral" cmp="%=" name="108400" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108400" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod83" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108401" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108401" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348456704" flags="ISACTIVE" starttime="1346728704">
+<ACL aff="neutral" cmp="%=" name="108401" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108401" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod93" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108404" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108404" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348618653" flags="ISACTIVE" starttime="1346890653">
+<ACL aff="neutral" cmp="%=" name="108404" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108404" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod83" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="110459" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="idle" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347170451" duration="1728000" endtime="1348898452" starttime="1347170452">
+<ACL aff="neutral" cmp="%=" name="110459" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110459" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod83" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="110461" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="idle" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347170462" duration="1728000" endtime="1348898463" starttime="1347170463">
+<ACL aff="neutral" cmp="%=" name="110461" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="110461" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod73" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108405" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108405" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348955826" flags="ISACTIVE" starttime="1347227826">
+<ACL aff="neutral" cmp="%=" name="108405" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108405" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod73" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108406" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108406" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348955826" flags="ISACTIVE" starttime="1347227826">
+<ACL aff="neutral" cmp="%=" name="108406" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108406" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod73" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108402" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108402" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348955826" flags="ISACTIVE" starttime="1347227826">
+<ACL aff="neutral" cmp="%=" name="108402" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108402" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod73" AllocProcCount="2" AllocTaskCount="1" LastChargeTime="0" Name="108403" Partition="tukwila" Priority="0" Resources="PROCS=2" RsvGroup="108403" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="1728000" endtime="1348955826" flags="ISACTIVE" starttime="1347227826">
+<ACL aff="neutral" cmp="%=" name="108403" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108403" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="rfu" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_rfu" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="feng_z" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="2">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="3456000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="1728000">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod55" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="106981" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="106981" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349021732" flags="ISACTIVE" starttime="1346429732">
+<ACL aff="neutral" cmp="%=" name="106981" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="106981" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod55" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="106982" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="106982" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349021765" flags="ISACTIVE" starttime="1346429765">
+<ACL aff="neutral" cmp="%=" name="106982" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="106982" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod55" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="106983" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="106983" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349021776" flags="ISACTIVE" starttime="1346429776">
+<ACL aff="neutral" cmp="%=" name="106983" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="106983" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod55" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="106985" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="106985" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349021787" flags="ISACTIVE" starttime="1346429787">
+<ACL aff="neutral" cmp="%=" name="106985" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="106985" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod11" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="106986" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="106986" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349021798" flags="ISACTIVE" starttime="1346429798">
+<ACL aff="neutral" cmp="%=" name="106986" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="106986" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod11" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="106987" Partition="campus" Priority="0" Resources="PROCS=1" RsvGroup="106987" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349021809" flags="ISACTIVE" starttime="1346429809">
+<ACL aff="neutral" cmp="%=" name="106987" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="106987" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="any" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod72" AllocProcCount="6" AllocTaskCount="6" LastChargeTime="0" Name="107017" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="107017" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349026069" flags="ISACTIVE" starttime="1346434069">
+<ACL aff="neutral" cmp="%=" name="107017" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="107017" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="hazelton" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_hazelton" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="luebeck_g" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="6">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="15552000">
+</CL>
+<CL aff="positive" cmp="%=" name="INTERACTIVE" type="JATTR">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod72" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="108911" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="108911" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349463741" flags="ISACTIVE" starttime="1346871741">
+<ACL aff="neutral" cmp="%=" name="108911" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108911" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ckang2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ckang2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="noaccount" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="gizmod85" AllocProcCount="1" AllocTaskCount="1" LastChargeTime="0" Name="108917" Partition="tukwila" Priority="0" Resources="PROCS=1" RsvGroup="108917" StatCAPS="0.00" StatCIPS="0.00" StatTAPS="0.00" StatTIPS="0.00" SubType="JobReservation" Type="Job" cost="0.000000" ctime="1347315836" duration="2592000" endtime="1349465468" flags="ISACTIVE" starttime="1346873468">
+<ACL aff="neutral" cmp="%=" name="108917" type="JOB">
+</ACL>
+<CL aff="positive" cmp="%=" name="108917" type="JOB">
+</CL>
+<CL aff="positive" cmp="%=" name="ckang2" type="USER">
+</CL>
+<CL aff="positive" cmp="%=" name="g_ckang2" type="GROUP">
+</CL>
+<CL aff="positive" cmp="%=" name="noaccount" type="ACCT">
+</CL>
+<CL aff="positive" cmp="%=" name="tukwila" type="CLASS">
+</CL>
+<CL aff="positive" cmp="==" type="DURATION" val="2592000">
+</CL>
+<CL aff="positive" cmp="==" type="PROC" val="1">
+</CL>
+<CL aff="positive" cmp="==" type="PS" val="2592000">
+</CL>
+<CL aff="positive" cmp="&lt;=" type="JPRIORITY">
+</CL>
+<History>
+</History>
+</rsv>
+<rsv AllocNodeCount="4" AllocNodeList="gizmoc12,gizmoc13,gizmod102,gizmod103" AllocProcCount="48" AllocTaskCount="4" HostExp="l:gizmoc12,gizmoc13,gizmod102,gizmod103" LastChargeTime="1347314407" Name="matsen.115" Partition="tukwila" Priority="0" ReqNodeList="gizmoc12:1,gizmoc13:1,gizmod102:1,gizmod103:1" Resources="PROCS=[ALL]" RsvGroup="matsen" RsvParent="matsen" StatCAPS="31191.38" StatCIPS="36862.54" StatTAPS="17925983.86" StatTIPS="289151047.34" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1340906124" duration="200000000" endtime="1540906124" flags="STANDINGRSV,IGNSTATE,ISACTIVE" starttime="1340906124">
+<ACL aff="positive" cmp="%=" name="matsen_e" type="ACCT">
+</ACL>
+<CL aff="neutral" cmp="%=" name="matsen.115" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="Reservation for Matsen group nodes" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AllocNodeCount="12" AllocNodeList="gizmod104,gizmod105,gizmod106,gizmod107,gizmod108,gizmod109,gizmod110,gizmod111,gizmod112,gizmod113,gizmod114,gizmod115" AllocProcCount="144" AllocTaskCount="12" HostExp="r:gizmod[104-115]" LastChargeTime="1347314407" Name="pbradley.165" Partition="tukwila" Priority="0" ReqNodeList="gizmod104:1,gizmod105:1,gizmod106:1,gizmod107:1,gizmod108:1,gizmod109:1,gizmod110:1,gizmod111:1,gizmod112:1,gizmod113:1,gizmod114:1,gizmod115:1" Resources="PROCS=[ALL]" RsvGroup="pbradley" RsvParent="pbradley" StatCAPS="170134.80" StatCIPS="34026.96" StatTAPS="260645523.23" StatTIPS="176884734.85" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1344275837" duration="200000000" endtime="1544275837" flags="STANDINGRSV,IGNSTATE,ISACTIVE" starttime="1344275837">
+<ACL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</ACL>
+<CL aff="neutral" cmp="%=" name="pbradley.165" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="Reservation for Bradley (Phil) group nodes" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AUser="root" AllocNodeCount="11" AllocNodeList="gizmoc1,gizmoc2,gizmoc3,gizmoc4,gizmoc5,gizmoc6,gizmoc7,gizmoc8,gizmoc9,gizmoc10,gizmoc11" AllocProcCount="132" AllocTaskCount="11" HostExp="r:gizmoc[1-11]" LastChargeTime="1347314407" Name="br3low.166" Partition="ram" Priority="0" ReqNodeList="gizmoc1:1,gizmoc2:1,gizmoc3:1,gizmoc4:1,gizmoc5:1,gizmoc6:1,gizmoc7:1,gizmoc8:1,gizmoc9:1,gizmoc10:1,gizmoc11:1" Resources="PROCS=[ALL]" StatCAPS="0.00" StatCIPS="187148.28" StatTAPS="0.00" StatTIPS="400958301.48" SubType="Other" Type="User" cost="0.000000" ctime="1344276682" duration="200000000" endtime="1544276682" flags="ISACTIVE" starttime="1344276682">
+<ACL aff="neutral" cmp="%=" name="br3low.166" type="RSV">
+</ACL>
+<ACL aff="positive" cmp="%=" name="bradley_p" type="ACCT">
+</ACL>
+<CL aff="neutral" cmp="%=" name="br3low.166" type="RSV">
+</CL>
+<CL aff="unavailable" cmp="%=" name="root" type="USER">
+</CL>
+<History>
+<event state="PROCS=132" time="1344276682">
+</event>
+</History>
+</rsv>
+<rsv AllocNodeCount="14" AllocNodeList="gizmod116,gizmod117,gizmod118,gizmod119,gizmod120,gizmod121,gizmod122,gizmod123,gizmod124,gizmod125,gizmod126,gizmod127,gizmod128,gizmod129" AllocProcCount="168" AllocTaskCount="14" HostExp="r:gizmod[116-129]" LastChargeTime="1347314407" Name="gottardo.169" Partition="tukwila" Priority="0" ReqNodeList="gizmod116:1,gizmod117:1,gizmod118:1,gizmod119:1,gizmod120:1,gizmod121:1,gizmod122:1,gizmod123:1,gizmod124:1,gizmod125:1,gizmod126:1,gizmod127:1,gizmod128:1,gizmod129:1" Resources="PROCS=[ALL]" RsvGroup="gottardo" RsvParent="gottardo" StatCAPS="136107.84" StatCIPS="102080.88" StatTAPS="107818933.84" StatTIPS="373207857.44" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1344450986" duration="200000000" endtime="1544450986" flags="STANDINGRSV,IGNSTATE,ISACTIVE" starttime="1344450986">
+<ACL aff="positive" cmp="%=" name="gottardo_r" type="ACCT">
+</ACL>
+<CL aff="neutral" cmp="%=" name="gottardo.169" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="Reservation for Gottardo nodes" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AllocNodeCount="1" AllocNodeList="sprawl1" AllocProcCount="64" AllocTaskCount="1" HostExp="x:sprawl" LastChargeTime="1347314407" Name="largenode.179" Partition="campus" Priority="0" ReqFeatureList="largenode" ReqNodeList="sprawl1:1" Resources="PROCS=[ALL]" RsvGroup="largenode" RsvParent="largenode" StatCAPS="0.00" StatCIPS="90738.56" StatTAPS="37931128.95" StatTIPS="117173290.25" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1344890763" duration="200000000" endtime="1544890763" flags="STANDINGRSV,IGNSTATE,ISACTIVE" starttime="1344890763">
+<ACL aff="positive" cmp="%=" name="largenode" type="JATTR">
+</ACL>
+<CL aff="neutral" cmp="%=" name="largenode.179" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="Reservation for large memory nodes" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AllocNodeCount="3" AllocNodeList="gizmod15,gizmod27,gizmod28" AllocProcCount="36" AllocTaskCount="3" HostExp="x:gizmod[0-9]$,gizmod[1-4][0-9]$" LastChargeTime="1347314407" Name="solexa.149" Partition="campus" Priority="0" ReqNodeList="gizmod15:1,gizmod27:1,gizmod28:1" ReqTaskCount="3" Resources="PROCS=[ALL]" RsvGroup="solexa" RsvParent="solexa" StatCAPS="17013.48" StatCIPS="34026.96" StatTAPS="29321227.35" StatTIPS="129494456.37" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1344894299" duration="200000000" endtime="1544894299" flags="STANDINGRSV,DEDICATEDRESOURCE,ISACTIVE" starttime="1344894299">
+<ACL aff="positive" cmp="%=" name="solexa" type="USER">
+</ACL>
+<CL aff="neutral" cmp="%=" name="solexa.149" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="reservation for Genomics jobs" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AUser="root" AllocNodeCount="1" AllocNodeList="gizmod80" AllocProcCount="12" AllocTaskCount="1" HostExp="^gizmod80$" LastChargeTime="1347314407" Name="mrg.199" Partition="tukwila" Priority="0" ReqNodeList="gizmod80:1" ReqTaskCount="1" Resources="PROCS=[ALL]" StatCAPS="0.00" StatCIPS="17013.48" StatTAPS="631787.98" StatTIPS="12133135.70" SubType="Other" Type="User" comment="development resources" cost="0.000000" ctime="1346250632" duration="200000000" endtime="1546250632" flags="ISACTIVE,REQFULL" starttime="1346250632">
+<ACL aff="neutral" cmp="%=" name="mrg.199" type="RSV">
+</ACL>
+<ACL aff="positive" cmp="%=" name="mrg" type="USER">
+</ACL>
+<CL aff="neutral" cmp="%=" name="mrg.199" type="RSV">
+</CL>
+<CL aff="unavailable" cmp="%=" name="root" type="USER">
+</CL>
+<History>
+<event state="PROCS=12" time="1346250632">
+</event>
+</History>
+</rsv>
+<rsv AllocNodeCount="8" AllocNodeList="gizmod136,gizmod137,gizmod138,gizmod139,gizmod140,gizmod141,gizmod142,gizmod143" AllocProcCount="96" AllocTaskCount="8" HostExp="r:gizmod[136-143]" LastChargeTime="1347314407" Name="csquid.208" Partition="tukwila" Priority="0" Resources="PROCS=[ALL]" RsvGroup="csquid" RsvParent="csquid" StatCAPS="0.00" StatCIPS="136107.84" StatTAPS="120.95" StatTIPS="41358614.41" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1346883581" duration="200000000" endtime="1546883581" flags="STANDINGRSV,IGNSTATE,ISACTIVE" starttime="1346883581">
+<ACL aff="neutral" cmp="%=" name="csquid.208" type="RSV">
+</ACL>
+<ACL aff="positive" cmp="%=" name="halloran_b" type="ACCT">
+</ACL>
+<CL aff="neutral" cmp="%=" name="csquid.208" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="Reservation for CSQUID nodes" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AllocNodeCount="5" AllocNodeList="gizmod131,gizmod132,gizmod133,gizmod134,gizmod135" AllocProcCount="60" AllocTaskCount="5" HostExp="r:gizmod[131-135]" LastChargeTime="1347314407" Name="viddnorm.207" Partition="tukwila" Priority="0" Resources="PROCS=[ALL]" RsvGroup="viddnorm" RsvParent="viddnorm" StatCAPS="0.00" StatCIPS="85067.40" StatTAPS="242619.36" StatTIPS="25606590.24" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1346883581" duration="200000000" endtime="1546883581" flags="STANDINGRSV,IGNSTATE,ISACTIVE" starttime="1346883581">
+<ACL aff="neutral" cmp="%=" name="viddnorm.207" type="RSV">
+</ACL>
+<ACL aff="positive" cmp="%=" name="halloran_b" type="ACCT">
+</ACL>
+<ACL aff="positive" cmp="%=" name="gilbert_p" type="ACCT">
+</ACL>
+<ACL aff="positive" cmp="%=" name="self_s" type="ACCT">
+</ACL>
+<ACL aff="positive" cmp="%=" name="fong_y" type="ACCT">
+</ACL>
+<ACL aff="positive" cmp="%=" name="huang_y" type="ACCT">
+</ACL>
+<CL aff="neutral" cmp="%=" name="viddnorm.207" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="Reservation for VIDD nodes" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+<rsv AllocNodeCount="2" AllocNodeList="gizmod144,gizmod145" AllocProcCount="24" AllocTaskCount="2" HostExp="r:gizmod[144-145]" LastChargeTime="1347314407" Name="yhnorm.209" Partition="tukwila" Priority="0" Resources="PROCS=[ALL]" RsvGroup="yhnorm" RsvParent="yhnorm" StatCAPS="3022.71" StatCIPS="31004.25" StatTAPS="355588.06" StatTIPS="9984095.78" SubType="StandingReservation" Type="User" cost="0.000000" ctime="1346883581" duration="200000000" endtime="1546883581" flags="STANDINGRSV,IGNSTATE,ISACTIVE" starttime="1346883581">
+<ACL aff="neutral" cmp="%=" name="yhnorm.209" type="RSV">
+</ACL>
+<ACL aff="positive" cmp="%=" name="huang_y" type="ACCT">
+</ACL>
+<ACL aff="positive" cmp="%=" name="fong_y" type="ACCT">
+</ACL>
+<CL aff="neutral" cmp="%=" name="yhnorm.209" type="RSV">
+</CL>
+<History>
+</History>
+<Messages>
+<message COUNT="1" CTIME="1346883581" DATA="Reservation for Ying Huang nodes" EXPIRETIME="2140000000" OWNER="moab" PRIORITY="0" TYPE="annotation" index="0">
+</message>
+</Messages>
+</rsv>
+</Data>
