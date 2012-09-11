@@ -29,12 +29,15 @@ def _process( self, data={}, attrs=[] ):
 
         elif t == 'nodelist':
             # (node, cores on node)
-            vars(self)[d] = []
+            vars(self)[d] = {}
             try:
-                elem = data[d].split(',')
-                for alloc in elem:
-                    alloc = tuple( alloc.split( ':' ) )
-                    vars(self)[d].append( alloc )
+                for alloc in data[d].split(','):
+                    try:
+                        nn, cores = alloc.split( ':' )
+                        vars(self)[d][nn] = int( cores )
+                    except ValueError:
+                        nn = alloc
+                        vars(self)[d][nn] = 0
             except KeyError:
                 vars(self)[d] = []
 
@@ -107,7 +110,7 @@ class Reservation:
     def __init__(self, rawdata={}):
         attributes=[
             ( 'AllocNodeCount',  'int' ),
-            ( 'AllocNodeList',   'list' ),
+            ( 'AllocNodeList',   'nodelist' ),
             ( 'AllocProcCount',  'int' ),
             ( 'AllocTaskCount',  'int' ),
             ( 'LastChargeTime',  'int' ),
