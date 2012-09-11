@@ -2,9 +2,7 @@
     <job
         AWDuration="73674"
         Account="gottardo_r"
-        BlockReason="tukwila:State:non-idle
-        state
-        'Running'"
+        BlockReason="tukwila:State:non-idle state 'Running'"
         Class="tukwila"
         DRMJID="109665"
         EEDuration="4"
