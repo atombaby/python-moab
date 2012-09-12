@@ -16,6 +16,7 @@
 from scheduler import Scheduler
 from mtypes import Job
 import xml.etree.ElementTree as et
+import operator
 
 s = Scheduler()
 summary = {}
@@ -41,7 +42,9 @@ for j in r.findall( 'queue/job' ):
 
 ofmt="{:>15} {}"
 print ofmt.format( 'user', 'cores' )
-for k,v in summary.items():
+for k,v in sorted( summary.iteritems(),
+        key=operator.itemgetter(1),
+        reverse=True):
     print ofmt.format( k, v )
 
 ofmt="{:>15} {} of {}"
