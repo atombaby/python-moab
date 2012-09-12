@@ -153,4 +153,40 @@ class Account:
     pass
 
 class Node:
+    def __init__(self, rawdata={}):
+        attributes=[
+            ( 'ARCH',               'string'),
+            ( 'AVLCLASS',           'string'),
+            ( 'CFGCLASS',           'string'),
+            ( 'FEATURES',           'list'	),
+            ( 'LASTUPDATETIME',     'int'	),
+            ( 'MAXJOB',             'int'	),
+            ( 'MAXJOBPERUSER',      'int'	),
+            ( 'MAXLOAD',            'float'	),
+            ( 'NODEID',             'string'),
+            ( 'NODEINDEX',          'int'	),
+            ( 'NODESTATE',          'string'),
+            ( 'OS',                 'string'),
+            ( 'OSLIST',             'string'),
+            ( 'PARTITION',          'string'),
+            ( 'PRIORITY',           'int'	),
+            ( 'PROCSPEED',          'int'	),
+            ( 'RADISK',             'int'	),
+            ( 'RAMEM',              'int'	),
+            ( 'RAPROC',             'int'	),
+            ( 'RASWAP',             'int'	),
+            ( 'RCDISK',             'int'	),
+            ( 'RCMEM',              'int'	),
+            ( 'RCPROC',             'int'	),
+            ( 'RESCOUNT',           'int'	),
+            ( 'RMACCESSLIST',       'string'),
+            ( 'RSVLIST',            'list'	),
+            ( 'SPEED',              'float'	),
+            ( 'STATACTIVETIME',     'int'	),
+            ( 'STATMODIFYTIME',     'int'	),
+            ( 'STATTOTALTIME',      'int'	),
+            ( 'STATUPTIME',         'int'	),
+        ]
+        _process( self, rawdata, attributes )
+
     pass
