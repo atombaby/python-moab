@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from scheduler import Scheduler
-from mtypes import Reservation, Job
+from mtypes import Reservation, Job, Node
 import xml.etree.ElementTree as et
 
 s = Scheduler()
@@ -127,22 +127,39 @@ pvn_total = 0
 pvc_total = 0
 pbn_total = 0
 pbc_total = 0
-for acct, s in total.items():
+for acct, smry in total.items():
     ofmt = "{:>25}{:>6} / {:<5}{:>6} / {:<5}"
-    for u in s.users:
-        t = s.userSummary(u)
+    for u in smry.users:
+        t = smry.userSummary(u)
         print ofmt.format(
-            u, *(s.userSummary(u)) )
+            u, *(smry.userSummary(u)) )
 
     ofmt = "{:>25}{:>6} / {:<5}{:>6} / {:<5}"
-    print ofmt.format( acct + " total", *(s.summary()) )
+    print ofmt.format( acct + " total", *(smry.summary()) )
     print "-" * 53
 
-    pvn_total = pvn_total + s.summary()[0]
-    pvc_total = pvc_total + s.summary()[1]
-    pbn_total = pbn_total + s.summary()[2]
-    pbc_total = pbc_total + s.summary()[3]
+    pvn_total = pvn_total + smry.summary()[0]
+    pvc_total = pvc_total + smry.summary()[1]
+    pbn_total = pbn_total + smry.summary()[2]
+    pbc_total = pbc_total + smry.summary()[3]
 
 print ofmt.format( "total used", pvn_total, pvc_total, pbn_total, pbc_total )
 
+r = et.fromstring( s.doCommand( [ "mdiag", "--xml", "-n" ] ) )
+
+pvn_total = 0
+pvc_total = 0
+pbn_total = 0
+pbc_total = 0
+for node_entry in r.findall( 'node' ):
+        n = Node( node_entry.attrib )
+        if n.NODEID not in reserved_nodes and n.RAPROC > 0:
+            pbc_total += n.RAPROC
+            pbn_total += 1
+        elif n.NODEID in reserved_nodes and n.RAPROC > 0:
+            pvc_total += n.RAPROC
+            pvn_total += 1
+
+ofmt = "{:>25}{:>6} / {:<5}{:>6} / {:<5}"
+print ofmt.format( "total available", pvn_total, pvc_total, pbn_total, pbc_total )
 
