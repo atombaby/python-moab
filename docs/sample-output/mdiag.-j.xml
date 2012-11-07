@@ -28,23 +28,23 @@
         SuspendDuration="0"
         UMask="0"
         User="jramey">
-    <par
-        ID="tukwila"
-        RsvStartTime="1346975264"
-        StartPriority="38">
-    </par>
-    <req
-        AllocNodeList="gizmod121:12"
-        AllocPartition="tukwila"
-        NCReqMin="1"
-        NodeAccess="SHARED"
-        ReqNodeMem="&gt;=0"
-        ReqNodeProc="&gt;=0"
-        ReqNodeSwap="&gt;=0"
-        ReqPartition="tukwila"
-        ReqProcPerTask="1*"
-        TCReqMin="12*"
-        TPN="12">
-    </req>
+        <par
+            ID="tukwila"
+            RsvStartTime="1346975264"
+            StartPriority="38">
+        </par>
+        <req
+            AllocNodeList="gizmod121:12"
+            AllocPartition="tukwila"
+            NCReqMin="1"
+            NodeAccess="SHARED"
+            ReqNodeMem="&gt;=0"
+            ReqNodeProc="&gt;=0"
+            ReqNodeSwap="&gt;=0"
+            ReqPartition="tukwila"
+            ReqProcPerTask="1*"
+            TCReqMin="12*"
+            TPN="12">
+        </req>
     </job>
 </Data>
