@@ -28,7 +28,7 @@ def _process( self, data={}, attrs=[] ):
                 vars(self)[d] = ""
 
         elif t == 'nodelist':
-            # (node, cores on node)
+            # {node:cores on node}
             vars(self)[d] = {}
             try:
                 for alloc in data[d].split(','):
@@ -36,8 +36,11 @@ def _process( self, data={}, attrs=[] ):
                         nn, cores = alloc.split( ':' )
                         vars(self)[d][nn] = int( cores )
                     except ValueError:
+                        # If there isn't a processor specification
+                        # after the node name, then only a single
+                        # processor is assigned
                         nn = alloc
-                        vars(self)[d][nn] = 0
+                        vars(self)[d][nn] = 1
             except KeyError:
                 vars(self)[d] = []
 
@@ -110,27 +113,30 @@ class Reservation:
     def __init__(self, rawdata={}):
         attributes=[
             ( 'AllocNodeCount',  'int' ),
-            ( 'AllocNodeList',   'nodelist' ),
+            ( 'AllocNodeList',   'list' ),
             ( 'AllocProcCount',  'int' ),
             ( 'AllocTaskCount',  'int' ),
+            ( 'cost',            'float' ),
+            ( 'ctime',           'int' ),
+            ( 'duration',        'int' ),
+            ( 'endtime',         'int' ),
+            ( 'flags',           'list' ),
+            ( 'HostExp',         'string' ),
             ( 'LastChargeTime',  'int' ),
             ( 'Name',            'string' ),
             ( 'Partition',       'string' ),
             ( 'Priority',        'int' ),
+            ( 'ReqNodeList',     'nodelist' ),
             ( 'Resources',       'string' ),
             ( 'RsvGroup',        'string' ),
+            ( 'RsvParent',       'string' ),
+            ( 'starttime',       'int' ),
             ( 'StatCAPS',        'float' ),
             ( 'StatCIPS',        'float' ),
             ( 'StatTAPS',        'float' ),
             ( 'StatTIPS',        'float' ),
             ( 'SubType',         'string' ),
             ( 'Type',            'string' ),
-            ( 'cost',            'float' ),
-            ( 'ctime',           'int' ),
-            ( 'duration',        'int' ),
-            ( 'endtime',         'int' ),
-            ( 'flags',           'list' ),
-            ( 'starttime',       'int' ),
         ]
         _process( self, rawdata, attributes)
 
