@@ -79,6 +79,7 @@ for k,v in sorted( cred_totals.items(), key=lambda x: x[1], reverse=True):
     sum += v
 
 print "{:->25} {:-<5}".format( '', '' )
-print "{:>25} {:<5}".format( 'total cores in use', sum )
 print "{:>25} {:<5}".format( 'total cores configured', public_cores )
+print "{:>25} {:<5}".format( 'total cores in use', sum )
+print "{:>25} {:<5}".format( 'total cores available', public_cores - sum )
 
