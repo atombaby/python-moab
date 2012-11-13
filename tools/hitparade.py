@@ -5,12 +5,18 @@ cores by user and account
 """
 import sys
 sys.path.append('/opt/moab/lib/python2.7/site-packages')
-from mwm.scheduler import Scheduler
-from mwm.mtypes import Reservation, Job, Node
-import xml.etree.cElementTree as et
 
-bold='\033[1;47m'
-normal='\033[1;m'
+import logging
+logging.basicConfig(level=logging.ERROR)
+
+try:
+    from mwm.scheduler import Scheduler
+    from mwm.mtypes import Reservation, Job, Node
+except ImportError:
+    logging.exception( "Moab client libraries not found" )
+    sys.exit(1)
+
+import xml.etree.cElementTree as et
 
 s = Scheduler()
 
