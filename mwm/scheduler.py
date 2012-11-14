@@ -2,6 +2,7 @@
 """Functions for interacting with the MWM scheduler"""
 
 import sys
+import logging
 import subprocess
 import xml.etree.ElementTree as et
 
@@ -9,7 +10,8 @@ import xml.etree.ElementTree as et
 # exception classes
 class MWMConnectError(Exception):
     def __init__( self, message ):
-        print "ERROR: " + message
+        logging.critical( message )
+        sys.exit(1)
 # interface functions
 # classes
 
@@ -60,7 +62,7 @@ class Scheduler():
         state = xml_data.find( 'sched' ).attrib[ 'STATE' ]
 
         if state != 'RUNNING':
-            print ( 'WARNING: scheduler is '
+            logging.warning ( 'scheduler state is '
                    'not \'running\' ( {} )'.format( state ) )
 
         self.state = state
@@ -105,7 +107,10 @@ class Scheduler():
             raise MWMConnectError( "Moab binaries not found" )
         except subprocess.CalledProcessError, e:
             errdata = et.fromstring( e.output )
-            msg = errdata.find( 'Message' ).text
+            try:
+                msg = errdata.find( 'Message' ).text
+            except AttributeError:
+                msg = errdata.text
             raise MWMConnectError( "Connection failure: " + msg )
         except:
             raise MWMConnectError(
