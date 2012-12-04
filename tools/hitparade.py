@@ -4,10 +4,20 @@ Show used and available public cores. Break down used
 cores by user and account
 """
 import sys
-sys.path.append('/opt/moab/lib/python2.7/site-packages')
-
 import logging
-logging.basicConfig(level=logging.ERROR)
+import argparse
+import xml.etree.cElementTree as et
+
+
+parser = argparse.ArgumentParser( description = 'show cluster users' )
+parser.add_argument( '--debug', action='store_true', default=False )
+argv = parser.parse_args()
+
+if argv.debug:
+    logging.basicConfig( level=logging.DEBUG )
+    print argv.debug
+else:
+    logging.basicConfig( level=logging.WARNING )
 
 try:
     from mwm.scheduler import Scheduler
@@ -15,8 +25,6 @@ try:
 except ImportError:
     logging.exception( "Moab client libraries not found" )
     sys.exit(1)
-
-import xml.etree.cElementTree as et
 
 s = Scheduler()
 
@@ -28,8 +36,10 @@ r = et.fromstring(
 for q in r.findall( 'rsv' ):
     rsv = Reservation( q.attrib )
     if rsv.Type == "User" and rsv.SubType == "StandingReservation":
+        logging.debug( "Found standing reservation: %s", rsv.Name )
         for n in rsv.AllocNodeList:
             node_reservations[ n ] = rsv.RsvParent
+            logging.debug( "Added node %s to reserved node list", n )
 
 r = et.fromstring(
     s.doCommand( [ "mdiag", "--xml", '-j', ] )
@@ -49,17 +59,27 @@ for j in r.findall( 'job' ):
 r = et.fromstring(
     s.doCommand( [ "mdiag", "--xml", '-n', ] )
 )
+
 public_nodes = []
 public_cores = 0
+logging.debug( "Looking for public nodes" )
 for n in r.findall( 'node' ):
     node = Node( n.attrib )
-    if 'campus' in node.CFGCLASS and node.NODEID not in node_reservations:
-        public_nodes.append( node.NODEID )
-        public_cores += node.RCPROC
+    if 'campus' not in node.CFGCLASS:
+        logging.debug( "node %s not in campus class", node.NODEID )
+        continue
+    if node.NODEID in node_reservations:
+        logging.debug( "node %s in private reservation %s", node.NODEID, node_reservations[ node.NODEID ] )
+        continue
+
+    logging.debug( "node %s added to public list",  node.NODEID )
+    public_nodes.append( node.NODEID )
+    public_cores += node.RCPROC
 
 cred_totals = {}
 # { 'cred':cores }
 for job in jobs.values():
+    logging.debug( "Counting job with creds %s", job )
     for node in job[0]:
         job_cred = job[1] + " (" + job[2] + ")"
         if node in public_nodes:

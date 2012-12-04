@@ -36,13 +36,13 @@ def _process( self, data={}, attrs=[] ):
                         nn, cores = alloc.split( ':' )
                         vars(self)[d][nn] = int( cores )
                     except ValueError:
-                        # If there isn't a processor specification
-                        # after the node name, then only a single
-                        # processor is assigned
+                        # If there isn't a processor count
+                        # after the node name, the caller
+                        # must look in ReqProcPerTask
                         nn = alloc
-                        vars(self)[d][nn] = 1
+                        vars(self)[d][nn] = 0
             except KeyError:
-                vars(self)[d] = []
+                vars(self)[d] = {}
 
         elif t == 'list':
             vars(self)[d] = []
@@ -64,7 +64,6 @@ class Job:
             ( 'JobID', 'int' ),
             ( 'NCReqMin', 'int' ),
             ( 'ReqAWDuration', 'int' ),
-            ( 'ReqProcs', 'int' ),
             ( 'RsvStartTime', 'int' ),
             ( 'RunPriority', 'int' ),
             ( 'StartCount', 'int' ),
@@ -104,6 +103,18 @@ class Job:
         ]
 
         _process( self, data=rawdata, attrs=attributes )
+
+        # Clean up AllocNodeList if processors are
+        # not set
+        for k, v in self.AllocNodeList.iteritems():
+            if v == 0:
+                # FIXME: ReqProcPerTask seems to be of the format
+                # (number)(asterisk).  I can't find this documented
+                # anywhere, however.  Right now we just assume
+                # the asterisk will always be there when parsing
+                # this and that it provides no other information
+                self.AllocNodeList[ k ] = int( self.ReqProcPerTask[:-1] )
+        
 
 
 class Queue:
