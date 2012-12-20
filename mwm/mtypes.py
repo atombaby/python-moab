@@ -124,7 +124,7 @@ class Reservation:
     def __init__(self, rawdata={}):
         attributes=[
             ( 'AllocNodeCount',  'int' ),
-            ( 'AllocNodeList',   'list' ),
+            ( 'AllocNodeList',   'nodelist' ),
             ( 'AllocProcCount',  'int' ),
             ( 'AllocTaskCount',  'int' ),
             ( 'cost',            'float' ),
