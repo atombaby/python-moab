@@ -84,3 +84,85 @@
 </message>
 </Messages>
 </rsv>
+
+
+<rsv
+    AllocNodeCount="2"
+    AllocNodeList="gizmod57,gizmod59"
+    AllocProcCount="6"
+    AllocTaskCount="6"
+    LastChargeTime="0"
+    Name="1233548"
+    Partition="ram"
+    Priority="0"
+    Resources="PROCS=1"
+    RsvGroup="1233548"
+    StatCAPS="0.00"
+    StatCIPS="0.00"
+    StatTAPS="0.00"
+    StatTIPS="0.00"
+    SubType="JobReservation"
+    Type="Job"
+    cost="0.000000"
+    ctime="1355873022"
+    duration="3600"
+    endtime="1355876545"
+    flags="ISACTIVE"
+    starttime="1355872945">
+    <ACL aff="neutral" cmp="%=" name="1233548" type="JOB"> </ACL>
+    <CL aff="positive" cmp="%=" name="PREEMPTEE" type="JATTR"> </CL>
+    <CL aff="positive" cmp="%=" name="1233548" type="JOB"> </CL>
+    <CL aff="positive" cmp="%=" name="mrg" type="USER"> </CL>
+    <CL aff="positive" cmp="%=" name="g_mrg" type="GROUP"> </CL>
+    <CL aff="positive" cmp="%=" name="scicomp" type="ACCT"> </CL>
+    <CL aff="positive" cmp="%=" name="restart" type="QOS"> </CL>
+    <CL aff="positive" cmp="%=" name="restart" type="CLASS"> </CL>
+    <CL aff="positive" cmp="==" type="PROC" val="6"> </CL>
+    <CL aff="positive" cmp="==" type="PS" val="21600"> </CL>
+    <CL aff="positive" cmp="&lt;=" type="JPRIORITY"> </CL>
+    <CL aff="positive" cmp="==" type="DURATION" val="3600"> </CL>
+    <History>
+    </History>
+</rsv>
+</Data>
+
+
+<Data>
+<rsv
+    AllocNodeCount="1"
+    AllocNodeList="gizmod87"
+    AllocProcCount="6"
+    AllocTaskCount="6"
+    LastChargeTime="0"
+    Name="1233549"
+    Partition="ram"
+    Priority="0"
+    Resources="PROCS=1"
+    RsvGroup="1233549"
+    StatCAPS="0.00"
+    StatCIPS="0.00"
+    StatTAPS="0.00"
+    StatTIPS="0.00"
+    SubType="JobReservation"
+    Type="Job"
+    cost="0.000000"
+    ctime="1355875601"
+    duration="3600"
+    endtime="1355877204"
+    flags="ISACTIVE"
+    starttime="1355873604">
+    <ACL aff="neutral" cmp="%=" name="1233549" type="JOB"> </ACL>
+    <CL aff="positive" cmp="%=" name="1233549" type="JOB"> </CL>
+    <CL aff="positive" cmp="%=" name="mrg" type="USER"> </CL>
+    <CL aff="positive" cmp="%=" name="g_mrg" type="GROUP"> </CL>
+    <CL aff="positive" cmp="%=" name="scicomp" type="ACCT"> </CL>
+    <CL aff="positive" cmp="%=" name="normal" type="QOS"> </CL>
+    <CL aff="positive" cmp="%=" name="campus" type="CLASS"> </CL>
+    <CL aff="positive" cmp="==" type="PROC" val="6"> </CL>
+    <CL aff="positive" cmp="==" type="PS" val="21600"> </CL>
+    <CL aff="positive" cmp="&lt;=" type="JPRIORITY"> </CL>
+    <CL aff="positive" cmp="==" type="DURATION" val="3600"> </CL>
+    <History>
+    </History>
+</rsv>
+</Data>

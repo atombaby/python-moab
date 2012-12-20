@@ -48,3 +48,134 @@
         </req>
     </job>
 </Data>
+
+
+<job
+    AWDuration="2144"
+    Account="scicomp"
+    BlockReason="State:non-idle state 'Running'"
+    Class="campus"
+    DRMJID="1233549"
+    EEDuration="11"
+    EState="Running"
+    EffPAL="[ram]"
+    Flags="RESTARTABLE,PREEMPTOR"
+    Group="g_mrg"
+    IWD="$HOME/tutorial"
+    JobID="1233549"
+    JobName="sleeper.sh"
+    PAL="[ram][campus][SHARED][tukwila][any][0]"
+    QOS="normal"
+    QueueStatus="active"
+    RM="ram"
+    ReqAWDuration="3600"
+    ReqSMinTime="1355873593"
+    StartCount="1"
+    StartPriority="24813"
+    StartTime="1355873604"
+    StatMSUtl="0.000"
+    StatPSDed="12863.280"
+    StatPSUtl="0.000"
+    State="Running"
+    SubmissionTime="1355873593"
+    SuspendDuration="0"
+    UMask="0"
+    User="mrg">
+    <req
+        AllocNodeList="gizmod87:6"
+        AllocPartition="ram"
+        NCReqMin="1"
+        NodeAccess="SINGLEUSER"
+        ReqNodeMem="&gt;=0"
+        ReqNodeProc="&gt;=0"
+        ReqNodeSwap="&gt;=0"
+        ReqPartition="ram"
+        ReqProcPerTask="1*"
+        TCReqMin="6*">
+    </req>
+</job>
+</Data>
+
+
+<Data>
+<job
+AWDuration="376971"
+Account="zhao_l"
+BlockReason="State:non-idle
+state
+'Running'"
+Class="campus"
+DRMJID="1191783"
+EEDuration="3"
+EState="Running"
+EffPAL="[ram]"
+Flags="RESTARTABLE,PREEMPTOR,INTERACTIVE"
+GAttr="INTERACTIVE,largenode"
+Group="g_xzhan2"
+IWD="/shared/silo_researcher/Zhao_L/datastore3/xzhan2/SNP_ROR/Codes/Simulation/test_power"
+JobID="1191783"
+JobName="grablargenode"
+PAL="[ram][campus][SHARED][tukwila][any][0]"
+QOS="normal"
+QueueStatus="active"
+RM="ram"
+ReqAWDuration="432000"
+StartCount="1"
+StartPriority="21734"
+StartTime="1355501273"
+StatMSUtl="0.000"
+StatPSDed="12016433.920"
+StatPSUtl="0.000"
+State="Running"
+SubmissionTime="1355501270"
+SuspendDuration="0"
+UMask="0"
+User="xzhan2">
+<req AllocNodeList="sprawl1:32" AllocPartition="ram" NCReqMin="1" NodeAccess="SHARED" ReqNodeFeature="[largenode]" ReqNodeMem="&gt;=0" ReqNodeProc="&gt;=0" ReqNodeSwap="&gt;=0" ReqPartition="ram" ReqProcPerTask="1*" TCReqMin="32*">
+</req>
+</job>
+</Data>
+
+
+<Data>
+<job
+AWDuration="45"
+Account="scicomp"
+BecameEligible="1355878340"
+BlockReason="State:non-idle
+state
+'Running'"
+Class="campus"
+DRMJID="1234525"
+EEDuration="24"
+EState="Running"
+EffPAL="[ram]"
+Flags="RESTARTABLE,HASPREEMPTED,PREEMPTOR"
+Group="g_mrg"
+IWD="/home/mrg/tutorial"
+JobID="1234525"
+JobName="sleeper.sh"
+PAL="[ram][campus][SHARED][tukwila][any][0]"
+QOS="normal"
+QueueStatus="active"
+RM="ram"
+ReqAWDuration="3600"
+StartCount="2"
+StartPriority="24775"
+StartTime="1355878341"
+StatMSUtl="0.000"
+StatPSDed="450.000"
+StatPSUtl="0.000"
+State="Running"
+SubmissionTime="1355878316"
+SuspendDuration="0"
+UMask="0"
+User="mrg">
+<req AllocNodeList="gizmod94:3,gizmod95:7" AllocPartition="ram" NCReqMin="2" NodeAccess="SHARED" ReqNodeMem="&gt;=0" ReqNodeProc="&gt;=0" ReqNodeSwap="&gt;=0" ReqPartition="ram" ReqProcPerTask="1*" TCReqMin="10*">
+</req>
+<Messages>
+<message COUNT="1" CTIME="1355878328" DATA="Could not start job 1234525(gizmod[94-95]): Resources" EXPIRETIME="1355964727" PRIORITY="0" TYPE="[NONE]" index="0">
+</message>
+</Messages>
+</job>
+</Data>
