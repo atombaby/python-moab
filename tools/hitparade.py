@@ -7,13 +7,14 @@ import sys
 import logging
 import argparse
 import xml.etree.cElementTree as et
+import csv
 from mwm.scheduler import Scheduler
 from mwm.mtypes import Reservation, Job, Node
 
 
 def main():
     """
-    Do some stuff, eventually printing output to the stdout...
+    Do some stuff, eventually printing output to stdout...
     """
     # Parse command-line arguments
     arguments = parse_arguments()
@@ -27,13 +28,16 @@ def main():
     node_reservations = get_node_reservations()
     jobs = get_jobs(all_jobs=arguments.all_jobs)
     cred_totals, public_cores = get_counts(node_reservations, jobs)
-    print_output(cred_totals, public_cores) 
+    if arguments.csv:
+        print_csv(cred_totals, public_cores)
+    else:
+        print_output(cred_totals, public_cores) 
 
 
 def get_node_reservations():
     """
     Return a dictionary where node is the key and RsvParent 
-    is the value.  Reservation must bye Type == User and 
+    is the value.  Reservation must be Type == User and 
     have a SubType of StandingReservation.
     """
     s = Scheduler()
@@ -159,6 +163,23 @@ def print_output(cred_totals, public_cores):
     print "{:>25} {:<5}".format( 'total cores available', public_cores - total )
 
 
+def print_csv(cred_totals, public_cores):
+    """
+    Display totals to stdout in csv format. Unless --all is used,
+    preemptees are not included.
+    """
+
+    total = 0
+    for k,v in sorted( cred_totals.items(), key=lambda x: x[1], reverse=True):
+        total += v
+
+    # Header
+    csv.writer(sys.stdout).writerow(['total_public_cores', 'used_public_cores',
+        'total_nodes', 'free_nodes'])
+    csv.writer(sys.stdout).writerow([str(public_cores), str(total),
+        '0', '0'])
+
+
 def parse_arguments():
     """
     Gather command-line arguments.
@@ -171,7 +192,11 @@ def parse_arguments():
     parser.add_argument( '--all', '-a', dest='all_jobs', action='store_true', 
         help='Show all core usage.  If set, results will include preemptees',
         default=False )
-    parser.add_argument( '--free-cores', '-c', action='store_true', default=False )
+    parser.add_argument( '--csv', '-c', dest='csv', action='store_true', 
+        help='Output core and node totals to csv.',
+        default=False )
+    #parser.add_argument( '--free-cores', '-f', action='store_true', default=False, 
+    #    help='Not yet implemented')
     return parser.parse_args()
 
 
