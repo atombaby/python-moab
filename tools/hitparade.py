@@ -27,9 +27,9 @@ def main():
 
     node_reservations = get_node_reservations()
     jobs = get_jobs(all_jobs=arguments.all_jobs)
-    cred_totals, public_cores = get_counts(node_reservations, jobs)
+    cred_totals, public_cores, public_nodes, public_nodes_free = get_counts(node_reservations, jobs)
     if arguments.csv:
-        print_csv(cred_totals, public_cores)
+        print_csv(arguments.csv_header_suppress, cred_totals, public_cores, public_nodes, public_nodes_free)
     else:
         print_output(cred_totals, public_cores) 
 
@@ -124,6 +124,8 @@ def get_counts(node_reservations, jobs):
 
     cred_totals = {}
     # { 'cred':cores }
+    # Copy the list to later subtract in-use nodes.
+    public_nodes_free = public_nodes[:]
     for job in jobs.values():
         logging.debug( "Counting job with creds %s", job )
         for node in job[0]:
@@ -135,6 +137,10 @@ def get_counts(node_reservations, jobs):
                     'public',
                     job_cred,
                 ]
+                # Remove public nodes that have at least one 
+                # core in use from public_nodes_free
+                if node in public_nodes_free: 
+                    del public_nodes_free[public_nodes_free.index(node)]
                 try:
                     cred_totals[ job_cred ] = (
                         cred_totals[ job_cred ] + job[0][node]
@@ -142,7 +148,7 @@ def get_counts(node_reservations, jobs):
                 except KeyError:
                     cred_totals[ job_cred ] = job[0][node]
 
-    return cred_totals, public_cores
+    return cred_totals, public_cores, len(public_nodes), len(public_nodes_free)
 
 
 def print_output(cred_totals, public_cores):
@@ -163,7 +169,7 @@ def print_output(cred_totals, public_cores):
     print "{:>25} {:<5}".format( 'total cores available', public_cores - total )
 
 
-def print_csv(cred_totals, public_cores):
+def print_csv(csv_header_suppress, cred_totals, public_cores, public_nodes, public_nodes_free):
     """
     Display totals to stdout in csv format. Unless --all is used,
     preemptees are not included.
@@ -174,10 +180,11 @@ def print_csv(cred_totals, public_cores):
         total += v
 
     # Header
-    csv.writer(sys.stdout).writerow(['total_public_cores', 'used_public_cores',
-        'total_nodes', 'free_nodes'])
+    if not csv_header_suppress:
+        csv.writer(sys.stdout).writerow(['total_public_cores', 'used_public_cores',
+            'total_public_nodes', 'free_public_nodes'])
     csv.writer(sys.stdout).writerow([str(public_cores), str(total),
-        '0', '0'])
+        public_nodes, public_nodes_free])
 
 
 def parse_arguments():
@@ -194,6 +201,10 @@ def parse_arguments():
         default=False )
     parser.add_argument( '--csv', '-c', dest='csv', action='store_true', 
         help='Output core and node totals to csv.',
+        default=False )
+    parser.add_argument( '--csv-header-suppress', '-s', dest='csv_header_suppress', 
+        action='store_true', 
+        help='Used with --csv, suppresses header. Default is False, show header.',
         default=False )
     #parser.add_argument( '--free-cores', '-f', action='store_true', default=False, 
     #    help='Not yet implemented')
