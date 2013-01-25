@@ -28,10 +28,12 @@ def main():
     node_reservations = get_node_reservations()
     jobs = get_jobs(all_jobs=arguments.all_jobs)
     cred_totals, public_cores, public_nodes, public_nodes_free = get_counts(node_reservations, jobs)
-    if arguments.csv:
+    if arguments.free_cores:
+        print_free_cores(cred_totals, public_cores)
+    elif arguments.csv:
         print_csv(arguments.csv_header_suppress, cred_totals, public_cores, public_nodes, public_nodes_free)
     else:
-        print_output(cred_totals, public_cores) 
+        print_output(cred_totals, public_cores, public_nodes, public_nodes_free) 
 
 
 def get_node_reservations():
@@ -151,22 +153,34 @@ def get_counts(node_reservations, jobs):
     return cred_totals, public_cores, len(public_nodes), len(public_nodes_free)
 
 
-def print_output(cred_totals, public_cores):
+def print_free_cores(cred_totals, public_cores):
+    """
+    """
+    total = 0
+    for k,v in sorted( cred_totals.items(), key=lambda x: x[1], reverse=True):
+        total += v
+    sys.stdout.write(str(public_cores - total))
+
+
+def print_output(cred_totals, public_cores, public_nodes, public_nodes_free):
     """
     Display totals to stdout, sorted descending by core count.
     """
     print "{:>25} {:<5}".format( 'user (account)', 'cores' )
     print "{:->25} {:-<5}".format( '', '' )
 
-    total = 0
     for k,v in sorted( cred_totals.items(), key=lambda x: x[1], reverse=True):
         print "{:>25} {:<5}".format( k,v )
-        total += v
+
+    total = get_used_cores(cred_totals, public_cores)
 
     print "{:->25} {:-<5}".format( '', '' )
     print "{:>25} {:<5}".format( 'total cores configured', public_cores )
     print "{:>25} {:<5}".format( 'total cores in use', total )
     print "{:>25} {:<5}".format( 'total cores available', public_cores - total )
+    print "{:->25} {:-<5}".format( '', '' )
+    print "{:>25} {:<5}".format( 'total nodes configured', public_nodes )
+    print "{:>25} {:<5}".format( 'total nodes free', public_nodes_free )
 
 
 def print_csv(csv_header_suppress, cred_totals, public_cores, public_nodes, public_nodes_free):
@@ -175,15 +189,13 @@ def print_csv(csv_header_suppress, cred_totals, public_cores, public_nodes, publ
     preemptees are not included.
     """
 
-    total = 0
-    for k,v in sorted( cred_totals.items(), key=lambda x: x[1], reverse=True):
-        total += v
+    total = get_used_cores(cred_totals, public_cores)
 
     # Header
     if not csv_header_suppress:
-        csv.writer(sys.stdout).writerow(['total_public_cores', 'used_public_cores',
+        csv.writer(sys.stdout).writerow(['total_public_cores', 'free_public_cores',
             'total_public_nodes', 'free_public_nodes'])
-    csv.writer(sys.stdout).writerow([str(public_cores), str(total),
+    csv.writer(sys.stdout).writerow([str(public_cores), str(public_cores - total),
         public_nodes, public_nodes_free])
 
 
@@ -193,7 +205,8 @@ def parse_arguments():
     """
 
     parser = argparse.ArgumentParser(prog='hitparade.py',
-        description='Show cluster users and basic usage stats.')
+        description='Show cluster users and basic usage stats for public ' + \
+        'nodes and cores.')
     parser.add_argument( '--debug', '-d', action='store_true', default=False,
         help='Turn on debugging output.')
     parser.add_argument( '--all', '-a', dest='all_jobs', action='store_true', 
@@ -206,9 +219,24 @@ def parse_arguments():
         action='store_true', 
         help='Used with --csv, suppresses header. Default is False, show header.',
         default=False )
-    #parser.add_argument( '--free-cores', '-f', action='store_true', default=False, 
-    #    help='Not yet implemented')
+    parser.add_argument( '--free-cores', '-f', dest='free_cores', 
+        action='store_true', 
+        help='Print free cores and exit.',
+        default=False )
+
     return parser.parse_args()
+
+def get_used_cores(cred_totals, public_cores):
+    """
+    Return used cores.
+    """
+    total = 0
+    for k,v in sorted( cred_totals.items(), key=lambda x: x[1], reverse=True):
+        total += v
+
+    return total
+
+
 
 
 if __name__ == '__main__':
