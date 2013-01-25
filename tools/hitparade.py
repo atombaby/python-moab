@@ -155,10 +155,9 @@ def get_counts(node_reservations, jobs):
 
 def print_free_cores(cred_totals, public_cores):
     """
+    Print the number of free public cores to stdout without a newline.
     """
-    total = 0
-    for k,v in sorted( cred_totals.items(), key=lambda x: x[1], reverse=True):
-        total += v
+    total = get_used_cores(cred_totals, public_cores)
     sys.stdout.write(str(public_cores - total))
 
 
