@@ -27,11 +27,14 @@ def main():
 
     node_reservations = get_node_reservations()
     jobs = get_jobs(all_jobs=arguments.all_jobs)
-    cred_totals, public_cores, public_nodes, public_nodes_free = get_counts(node_reservations, jobs)
+    # Okay, this list of assignments is getting too long...
+    cred_totals, public_cores, public_nodes, public_nodes_free, restart_public_cores, restart_public_nodes = get_counts(node_reservations, jobs)
     if arguments.free_cores:
         print_free_cores(cred_totals, public_cores)
     elif arguments.csv:
-        print_csv(arguments.csv_header_suppress, cred_totals, public_cores, public_nodes, public_nodes_free)
+        print_csv(arguments.csv_header_suppress, cred_totals, public_cores, 
+            public_nodes, public_nodes_free, restart_public_cores, 
+            restart_public_nodes)
     else:
         print_output(cred_totals, public_cores, public_nodes, public_nodes_free) 
 
@@ -107,6 +110,8 @@ def get_counts(node_reservations, jobs):
 
     public_nodes = []
     public_cores = 0
+    restart_public_nodes = []
+    restart_public_cores = 0
     logging.debug( "Looking for public nodes" )
     for n in r.findall( 'node' ):
         node = Node( n.attrib )
@@ -123,6 +128,11 @@ def get_counts(node_reservations, jobs):
         logging.debug( "node %s added to public list",  node.NODEID )
         public_nodes.append( node.NODEID )
         public_cores += node.RCPROC
+
+        logging.debug( "node %s added to restart public list",  node.NODEID )
+        if 'restart' in node.CFGCLASS:
+            restart_public_nodes.append( node.NODEID )
+            restart_public_cores += node.RCPROC
 
     cred_totals = {}
     # { 'cred':cores }
@@ -150,7 +160,8 @@ def get_counts(node_reservations, jobs):
                 except KeyError:
                     cred_totals[ job_cred ] = job[0][node]
 
-    return cred_totals, public_cores, len(public_nodes), len(public_nodes_free)
+    return cred_totals, public_cores, len(public_nodes), \
+        len(public_nodes_free), restart_public_cores, len(restart_public_nodes)
 
 
 def print_free_cores(cred_totals, public_cores):
@@ -182,7 +193,8 @@ def print_output(cred_totals, public_cores, public_nodes, public_nodes_free):
     print "{:>25} {:<5}".format( 'total nodes free', public_nodes_free )
 
 
-def print_csv(csv_header_suppress, cred_totals, public_cores, public_nodes, public_nodes_free):
+def print_csv(csv_header_suppress, cred_totals, public_cores, public_nodes,
+        public_nodes_free, restart_public_cores, restart_public_nodes):
     """
     Display totals to stdout in csv format. Unless --all is used,
     preemptees are not included.
@@ -193,9 +205,11 @@ def print_csv(csv_header_suppress, cred_totals, public_cores, public_nodes, publ
     # Header
     if not csv_header_suppress:
         csv.writer(sys.stdout).writerow(['total_public_cores', 'free_public_cores',
-            'total_public_nodes', 'free_public_nodes'])
+            'total_public_nodes', 'free_public_nodes', 'restart_public_nodes',
+            'restart_public_cores'])
     csv.writer(sys.stdout).writerow([str(public_cores), str(public_cores - total),
-        public_nodes, public_nodes_free])
+        public_nodes, public_nodes_free,  restart_public_cores,
+        restart_public_nodes])
 
 
 def parse_arguments():
