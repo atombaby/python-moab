@@ -44,12 +44,22 @@ def getRunningSummary( s ):
 
     return summary
 
+def getIdleJobSummary( s ):
+    command = [ "showq", "--xml", '-i' ]
+    queue = et.fromstring( s.doCommand( command ) )
+    retval = []
+    for j in queue.findall( 'queue/job' ):
+        retval.append( j.attrib[ 'JobID' ] )
+    return retval
+
 def main():
     s = scheduler.Scheduler()
     print s.state
     summary = getRunningSummary( s )
     for acct in summary.keys():
         print acct, summary[ acct ][ 'procs' ]
+
+    getIdleJobSummary( s )
         
 
 if __name__ == '__main__':
