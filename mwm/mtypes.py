@@ -160,6 +160,7 @@ class User:
             ( 'ENABLEPROFILING', 'string' ),
             ( 'ID', 'string' ),
             ( 'ROLE', 'string' ),
+            ( 'EMAILADDRESS', 'string' ),
         ]
         _process( self, rawdata, attributes)
 
