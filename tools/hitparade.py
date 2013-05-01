@@ -38,22 +38,25 @@ def main():
 def is_private( rsv ):
     """
     A private reservation is
-    a) not of type "User" 
+    a) not of type "User" or "Job"
     b) subtype of StandingReservation
     c) not in the reservation group "iactive" or largenode
     """
-    if rsv.Type == "User":
-        logging.debug( "reservation: %s is User type", rsv.Name )
+    if rsv.Type == "Job":
+        logging.debug( "reservation: %s is job reservation", rsv.Name )
         return False
-    if rsv.SubType != "StandingReservation":
-        logging.debug( "reservation: %s is not standing rsv", rsv.Name )
+    if rsv.RsvGroup == "iactive" or rsv.RsvGroup == "largenode":
+        logging.debug( "reservation: %s is public reservation", rsv.Name )
         return False
-    if rsv.RsvGroup == "iactive":
-        logging.debug( "reservation: %s is interactive", rsv.Name )
+    if rsv.SubType == "Other" and rsv.Type == "User":
+        logging.debug( "%s is non-private reservation", rsv.Name )
         return False
+    if rsv.SubType == "StandingReservation" and rsv.Type == "User":
+        logging.debug( "%s is private reservation", rsv.Name )
+        return True
 
+    logging.debug( "reservation %s assumed private", rsv.Name )
     return True
-
 
 def get_node_reservations():
     """
@@ -76,8 +79,9 @@ def get_node_reservations():
         # q.attrib is a dictionary of attributes and their values.
         rsv = Reservation( q.attrib )
         #if rsv.Type == "User" and rsv.SubType == "StandingReservation" and rsv.RsvGroup != "iactive":
-        if not is_private( rsv ):
-            logging.debug( "Found standing reservation: %s", rsv.Name )
+        #if not is_private( rsv ):
+        if is_private( rsv ):
+            logging.debug( "Found reservation: %s", rsv.Name )
             for n in rsv.AllocNodeList:
                 # Question here, any chance more than one reservation
                 # could include the same node, but with different 
@@ -133,6 +137,9 @@ def get_counts(node_reservations, jobs):
         # When node.CFGCLASS does not contain 'campus', this is not a public
         # node. Also skip if node has an associated reservation. Node 
         # is added to public_nodes list in all other cases.
+        if node.NODESTATE == 'Drained' or node.NODESTATE == 'Down':
+            logging.debug( "node %s is %s", node.NODEID, node.NODESTATE )
+            continue
         if 'campus' not in node.CFGCLASS:
             logging.debug( "node %s not in campus class", node.NODEID )
             continue
@@ -140,9 +147,10 @@ def get_counts(node_reservations, jobs):
             logging.debug( "node %s in private reservation %s", node.NODEID, node_reservations[ node.NODEID ] )
             continue
 
-        logging.debug( "node %s added to public list",  node.NODEID )
         public_nodes.append( node.NODEID )
+        logging.debug( "node %s added to public list",  node.NODEID )
         public_cores += node.RCPROC
+        logging.debug( "added %s cores from node %s added to public core total", node.RCPROC, node.NODEID )
 
     cred_totals = {}
     # { 'cred':cores }
@@ -153,6 +161,7 @@ def get_counts(node_reservations, jobs):
         for node in job[0]:
             job_cred = job[1] + " (" + job[2] + ")"
             if node in public_nodes:
+                logging.debug( "node %s is public", node )
                 o = [
                     job[0][node],
                     node,
@@ -170,6 +179,8 @@ def get_counts(node_reservations, jobs):
                 except KeyError:
                     cred_totals[ job_cred ] = job[0][node]
 
+    logging.debug( "Nodes Free: %s", public_nodes_free )
+    logging.debug( "Cred totals: %s", cred_totals )
     return cred_totals, public_cores, len(public_nodes), len(public_nodes_free)
 
 
